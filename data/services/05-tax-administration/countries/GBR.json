@@ -1,7 +1,7 @@
 {
   "country_code": "GBR",
   "country_name": "United Kingdom",
-  "service_id": "07-tax-administration",
+  "service_id": "05-tax-administration",
   "status": "available",
   "confidence": "medium",
   "summary": "HM Revenue and Customs (HMRC) provides comprehensive digital tax services. Self Assessment tax returns are filed online by over 12 million taxpayers annually. Making Tax Digital (MTD) mandates digital record-keeping and quarterly submissions for VAT-registered businesses and is expanding to Income Tax Self Assessment. The Personal Tax Account enables individuals to manage tax codes, check National Insurance records, and claim refunds online.",

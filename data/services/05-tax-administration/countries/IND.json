@@ -1,7 +1,7 @@
 {
   "country_code": "IND",
   "country_name": "India",
-  "service_id": "07-tax-administration",
+  "service_id": "05-tax-administration",
   "status": "available",
   "confidence": "medium",
   "summary": "India operates a comprehensive digital tax administration system through the Income Tax e-Filing portal and the Goods and Services Tax Network (GSTN). The e-Filing portal handles over 70 million income tax returns annually with Aadhaar-based verification. GSTN processes all GST compliance for over 14 million registered businesses, including return filing, input tax credit matching, and e-invoicing. The Faceless Assessment and Appeals scheme conducts tax proceedings entirely online.",

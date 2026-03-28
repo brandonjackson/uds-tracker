@@ -1,7 +1,7 @@
 {
   "country_code": "GBR",
   "country_name": "United Kingdom",
-  "service_id": "15-immigration-travel",
+  "service_id": "14-immigration-travel",
   "status": "available",
   "confidence": "medium",
   "summary": "The UK provides comprehensive digital immigration and travel services through GOV.UK, including online passport applications and renewals, visa applications via the UK Visas and Immigration portal, immigration status checking and sharing (View and Prove service), and ePassport gates at airports for automated border control.",

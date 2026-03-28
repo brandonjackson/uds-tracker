@@ -51,17 +51,17 @@ export default function AboutPage() {
           <ul className="text-[var(--dark-grey)] mt-2 space-y-1 list-disc pl-5">
             <li>
               <strong>Foundation Services (1-5):</strong> Digital Identity, Civil
-              Registration, Digital Payments, Health Records, Population
-              Registry. The non-negotiables — you cannot participate in modern
-              society without these.
+              Registration, Digital Payments, Health Records, Tax
+              Administration. The non-negotiables — you cannot participate in
+              modern society without these.
             </li>
             <li>
-              <strong>Essential Services (6-15):</strong> Social Protection, Tax
-              Administration, Land &amp; Property, Education, Business
-              Registration, Electoral Services, Justice &amp; Legal Aid,
-              Agricultural Extension, Public Procurement, Immigration &amp;
-              Travel. The equity multipliers that transform access when
-              digitised.
+              <strong>Essential Services (6-15):</strong> Social Protection,
+              Vehicle &amp; Driver&apos;s Licensing, Land &amp; Property, Education,
+              Business Registration, Electoral Services, Justice &amp; Legal
+              Aid, Agricultural Extension, Immigration &amp; Travel, Policing
+              &amp; Public Safety. The equity multipliers that transform access
+              when digitised.
             </li>
           </ul>
 

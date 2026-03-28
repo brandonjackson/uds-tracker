@@ -1,7 +1,7 @@
 {
   "country_code": "RWA",
   "country_name": "Rwanda",
-  "service_id": "07-tax-administration",
+  "service_id": "05-tax-administration",
   "status": "partial",
   "confidence": "medium",
   "summary": "The Rwanda Revenue Authority (RRA) operates an e-tax system that enables online filing and payment of major taxes including income tax, VAT, and customs duties. The system has achieved significant digitization for formal sector taxpayers, with electronic billing machines (EBMs) mandated for VAT-registered businesses. However, adoption among small and informal sector businesses remains limited, and digital literacy constraints affect usage rates outside major urban centers.",
