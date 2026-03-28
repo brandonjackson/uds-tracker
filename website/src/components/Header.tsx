@@ -22,6 +22,12 @@ export default function Header() {
                 Home
               </Link>
               <Link
+                href="/vision"
+                className="text-white no-underline hover:underline"
+              >
+                Our Vision
+              </Link>
+              <Link
                 href="/tracker"
                 className="text-white no-underline hover:underline"
               >
