@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ServiceGrid from "@/components/ServiceGrid";
@@ -39,18 +40,18 @@ export default function Home() {
             deliver them, and champions the countries leading the way.
           </p>
           <div className="flex items-center justify-center gap-4">
-            <a
+            <Link
               href="/tracker"
               className="bg-[var(--teal)] hover:bg-[var(--teal-dark)] text-white px-6 py-3 rounded-lg font-medium transition-colors"
             >
               Explore the Tracker
-            </a>
-            <a
+            </Link>
+            <Link
               href="/about"
               className="border border-slate-500 hover:border-slate-300 text-slate-300 hover:text-white px-6 py-3 rounded-lg font-medium transition-colors"
             >
               Learn More
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -124,12 +125,12 @@ export default function Home() {
             maintainer, a government official, a researcher, or a funder, there
             is a way to contribute data, improve coverage, and close the gap.
           </p>
-          <a
+          <Link
             href="/about"
             className="bg-[var(--teal)] hover:bg-[var(--teal-dark)] text-white px-6 py-3 rounded-lg font-medium transition-colors"
           >
             How to Contribute
-          </a>
+          </Link>
         </div>
       </section>
 

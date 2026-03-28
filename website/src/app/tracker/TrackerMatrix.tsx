@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
+import Link from "next/link";
 import { services } from "@/lib/services";
 import type {
   Country,
@@ -122,13 +123,13 @@ export default function TrackerMatrix({
                     key={s.id}
                     className="py-2 px-1 font-medium text-slate-600 border-b text-center min-w-[60px]"
                   >
-                    <a
+                    <Link
                       href={`/service/${s.id}`}
                       className="hover:text-[var(--teal-dark)]"
                       title={s.name}
                     >
                       {String(s.number).padStart(2, "0")}
-                    </a>
+                    </Link>
                   </th>
                 ))}
               </tr>
