@@ -11,15 +11,15 @@ import type {
 } from "@/lib/types";
 
 const statusColors: Record<ServiceStatus, string> = {
-  available: "bg-emerald-500",
-  partial: "bg-amber-400",
-  unavailable: "bg-red-400",
-  unknown: "bg-slate-200",
+  available: "bg-[var(--status-available)]",
+  partial: "bg-[var(--status-partial)]",
+  unavailable: "bg-[var(--status-unavailable)]",
+  unknown: "bg-[var(--mid-grey)]",
 };
 
 const confidenceBorder: Record<ConfidenceLevel, string> = {
-  high: "ring-2 ring-emerald-600",
-  medium: "ring-1 ring-slate-400",
+  high: "ring-2 ring-[var(--black)]",
+  medium: "ring-1 ring-[var(--dark-grey)]",
   low: "",
 };
 
@@ -61,19 +61,19 @@ export default function TrackerMatrix({
 
   return (
     <>
-      <section className="py-6 border-b bg-white sticky top-0 z-10">
+      <section className="py-4 border-b border-[var(--border-grey)] bg-white sticky top-0 z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-wrap items-center gap-4">
           <input
             type="text"
             placeholder="Search countries..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            className="border rounded-lg px-3 py-1.5 text-sm w-48"
+            className="border-2 border-[var(--black)] px-3 py-1.5 text-sm w-48 focus:outline-3 focus:outline-[var(--green)] focus:outline-offset-0"
           />
           <select
             value={regionFilter}
             onChange={(e) => setRegionFilter(e.target.value as Region)}
-            className="border rounded-lg px-3 py-1.5 text-sm"
+            className="border-2 border-[var(--black)] px-3 py-1.5 text-sm"
           >
             <option value="All">All Regions</option>
             <option value="Africa">Africa</option>
@@ -85,7 +85,7 @@ export default function TrackerMatrix({
           <select
             value={incomeFilter}
             onChange={(e) => setIncomeFilter(e.target.value as Income)}
-            className="border rounded-lg px-3 py-1.5 text-sm"
+            className="border-2 border-[var(--black)] px-3 py-1.5 text-sm"
           >
             <option value="All">All Income Levels</option>
             <option value="Low">Low</option>
@@ -93,18 +93,18 @@ export default function TrackerMatrix({
             <option value="Upper-middle">Upper-middle</option>
             <option value="High">High</option>
           </select>
-          <div className="flex items-center gap-3 ml-auto text-xs">
+          <div className="flex items-center gap-3 ml-auto text-xs font-bold">
             <span className="flex items-center gap-1">
-              <span className="w-3 h-3 rounded-sm bg-emerald-500" /> Available
+              <span className="w-3 h-3 bg-[var(--status-available)]" /> Available
             </span>
             <span className="flex items-center gap-1">
-              <span className="w-3 h-3 rounded-sm bg-amber-400" /> Partial
+              <span className="w-3 h-3 bg-[var(--status-partial)]" /> Partial
             </span>
             <span className="flex items-center gap-1">
-              <span className="w-3 h-3 rounded-sm bg-red-400" /> Unavailable
+              <span className="w-3 h-3 bg-[var(--status-unavailable)]" /> Unavailable
             </span>
             <span className="flex items-center gap-1">
-              <span className="w-3 h-3 rounded-sm bg-slate-200" /> Unknown
+              <span className="w-3 h-3 bg-[var(--mid-grey)]" /> Unknown
             </span>
           </div>
         </div>
@@ -115,17 +115,17 @@ export default function TrackerMatrix({
           <table className="w-full text-xs border-collapse">
             <thead>
               <tr>
-                <th className="sticky left-0 bg-white z-20 text-left py-2 px-2 font-semibold text-slate-700 border-b min-w-[180px]">
+                <th className="sticky left-0 bg-white z-20 text-left py-2 px-2 font-bold text-[var(--black)] border-b-2 border-[var(--black)] min-w-[180px]">
                   Country
                 </th>
                 {services.map((s) => (
                   <th
                     key={s.id}
-                    className="py-2 px-1 font-medium text-slate-600 border-b text-center min-w-[60px]"
+                    className="py-2 px-1 font-bold text-[var(--dark-grey)] border-b-2 border-[var(--black)] text-center min-w-[60px]"
                   >
                     <Link
                       href={`/service/${s.id}`}
-                      className="hover:text-[var(--teal-dark)]"
+                      className="hover:text-[var(--green)] no-underline hover:underline"
                       title={s.name}
                     >
                       {String(s.number).padStart(2, "0")}
@@ -138,9 +138,9 @@ export default function TrackerMatrix({
               {filteredCountries.map((country) => (
                 <tr
                   key={country.code}
-                  className="hover:bg-slate-50 border-b border-slate-100"
+                  className="hover:bg-[var(--light-grey)] border-b border-[var(--border-grey)]"
                 >
-                  <td className="sticky left-0 bg-white z-10 py-1.5 px-2 font-medium text-slate-700 group-hover:bg-slate-50">
+                  <td className="sticky left-0 bg-white z-10 py-1.5 px-2 font-bold text-sm text-[var(--black)]">
                     {country.name}
                   </td>
                   {services.map((service) => {
@@ -154,7 +154,7 @@ export default function TrackerMatrix({
                         className="py-1.5 px-1 text-center"
                       >
                         <button
-                          className={`w-6 h-6 rounded-sm ${statusColors[status]} ${confidenceBorder[confidence]} inline-block cursor-pointer hover:scale-125 transition-transform`}
+                          className={`w-6 h-6 ${statusColors[status]} ${confidenceBorder[confidence]} inline-block cursor-pointer hover:scale-125 transition-transform`}
                           onMouseEnter={(e) => {
                             const rect =
                               e.currentTarget.getBoundingClientRect();
@@ -178,7 +178,7 @@ export default function TrackerMatrix({
           </table>
 
           {filteredCountries.length === 0 && (
-            <p className="text-center text-slate-400 py-12">
+            <p className="text-center text-[var(--dark-grey)] py-12">
               No countries match your filters.
             </p>
           )}
@@ -186,22 +186,22 @@ export default function TrackerMatrix({
 
         {tooltip && (
           <div
-            className="fixed z-50 bg-white shadow-lg rounded-lg border border-slate-200 p-3 max-w-xs pointer-events-none"
+            className="fixed z-50 bg-white border-2 border-[var(--black)] p-3 max-w-xs pointer-events-none"
             style={{
               left: tooltip.x,
               top: tooltip.y,
               transform: "translateX(-50%)",
             }}
           >
-            <p className="font-semibold text-sm">{tooltip.country.name}</p>
-            <p className="text-xs text-slate-500 mb-1">
+            <p className="font-bold text-sm">{tooltip.country.name}</p>
+            <p className="text-xs text-[var(--dark-grey)] mb-1">
               {services.find((s) => s.id === tooltip.serviceId)?.name}
             </p>
             {tooltip.data ? (
               <>
                 <p className="text-xs">
                   Status:{" "}
-                  <span className="font-medium capitalize">
+                  <span className="font-bold capitalize">
                     {tooltip.data.status}
                   </span>{" "}
                   (
@@ -211,19 +211,19 @@ export default function TrackerMatrix({
                   confidence)
                 </p>
                 {tooltip.data.summary && (
-                  <p className="text-xs text-slate-500 mt-1">
+                  <p className="text-xs text-[var(--dark-grey)] mt-1">
                     {tooltip.data.summary}
                   </p>
                 )}
               </>
             ) : (
-              <p className="text-xs text-slate-400">No data yet</p>
+              <p className="text-xs text-[var(--dark-grey)]">No data yet</p>
             )}
           </div>
         )}
       </section>
 
-      <div className="bg-white border-t py-4 text-center text-xs text-slate-400">
+      <div className="bg-white border-t border-[var(--border-grey)] py-4 text-center text-xs text-[var(--dark-grey)]">
         Showing {filteredCountries.length} of {countries.length} countries
       </div>
     </>

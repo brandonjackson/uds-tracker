@@ -1,20 +1,28 @@
 @import "tailwindcss";
 
 :root {
-  --navy: #0a1628;
-  --navy-light: #132240;
-  --navy-mid: #1a2d4a;
-  --teal: #0d9488;
-  --teal-light: #14b8a6;
-  --teal-dark: #0f766e;
-  --green: #22c55e;
-  --amber: #f59e0b;
-  --red: #ef4444;
-  --gray: #94a3b8;
-  --gray-light: #e2e8f0;
+  --green: #00703c;
+  --green-hover: #004e2a;
+  --green-light: #cce2d8;
+  --black: #0b0c0c;
+  --dark-grey: #505a5f;
+  --mid-grey: #b1b4b6;
+  --light-grey: #f3f2f1;
+  --border-grey: #d2d5d8;
+  --link-green: #00703c;
+  --status-available: #00703c;
+  --status-partial: #f47738;
+  --status-unavailable: #d4351c;
+  --status-unknown: #b1b4b6;
 }
 
 body {
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-  color: #1e293b;
+  font-family: "GDS Transport", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: var(--black);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: var(--link-green);
 }

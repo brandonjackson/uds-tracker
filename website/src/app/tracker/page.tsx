@@ -10,10 +10,10 @@ export default function TrackerPage() {
     <div className="min-h-screen flex flex-col">
       <Header />
 
-      <section className="bg-[var(--navy)] text-white py-12">
+      <section className="bg-[var(--light-grey)] border-b border-[var(--border-grey)] py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl font-bold mb-2">Service Tracker</h1>
-          <p className="text-slate-300">
+          <h1 className="text-3xl font-bold text-[var(--black)] mb-2">Service Tracker</h1>
+          <p className="text-[var(--dark-grey)] leading-relaxed">
             193 countries. 15 services. Tracking digital access for every
             citizen.
           </p>
