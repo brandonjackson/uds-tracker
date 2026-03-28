@@ -26,15 +26,15 @@ export default function Home() {
       <section className="bg-[var(--green)] text-white py-12 lg:py-16">
         <div className="max-w-[960px] mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-sm font-bold uppercase tracking-wider mb-3 opacity-80">
-            A Digital Public Good
+            Our Vision
           </p>
           <h1 className="text-3xl sm:text-4xl lg:text-[48px] font-bold leading-tight mb-4">
-            By 2035, every person on earth should have access to 15 essential digital public services
+            Everyone deserves brilliant digital services by 2035.
           </h1>
           <p className="text-lg leading-relaxed max-w-2xl mb-8 opacity-90">
-            The Universal Digital Services Tracker maps which services exist in
-            every UN member state, surfaces the open-source tools that can
-            deliver them, and champions the countries leading the way.
+            The next decade should see a transformation in public services
+            powered by AI — from registering a birth to receiving a pension. The
+            UDS Tracker maps the gaps and champions who's closing them.
           </p>
           <div className="flex items-center gap-4">
             <Link
