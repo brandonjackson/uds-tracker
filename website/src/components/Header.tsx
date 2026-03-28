@@ -19,10 +19,10 @@ export default function Header() {
                 Home
               </Link>
               <Link
-                href="/vision"
+                href="/services"
                 className="text-white no-underline hover:underline"
               >
-                Our Vision
+                Services
               </Link>
               <Link
                 href="/tracker"
