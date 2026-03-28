@@ -23,6 +23,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  color: var(--link-green);
+@layer base {
+  a {
+    color: var(--link-green);
+  }
 }
