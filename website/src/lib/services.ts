@@ -38,13 +38,13 @@ export const services: ServiceDefinition[] = [
     dpg_maturity: "Mature",
   },
   {
-    id: "05-population-registry",
-    name: "Population Registry",
+    id: "05-tax-administration",
+    name: "Tax Administration",
     number: 5,
     tier: "Foundation",
     description:
-      "Be counted in a national register, update personal details, and obtain proof of residency.",
-    dpg_maturity: "Emerging",
+      "File tax returns, calculate liability, pay taxes, and manage taxpayer profile online.",
+    dpg_maturity: "Gap",
   },
   {
     id: "06-social-protection",
@@ -56,12 +56,12 @@ export const services: ServiceDefinition[] = [
     dpg_maturity: "Emerging",
   },
   {
-    id: "07-tax-administration",
-    name: "Tax Administration",
+    id: "07-vehicle-driver-licensing",
+    name: "Vehicle & Driver's Licensing",
     number: 7,
     tier: "Essential",
     description:
-      "File tax returns, calculate liability, pay taxes, and manage taxpayer profile online.",
+      "Apply for or renew a driving licence, register a vehicle, pay vehicle tax, and check penalty points.",
     dpg_maturity: "Gap",
   },
   {
@@ -119,21 +119,21 @@ export const services: ServiceDefinition[] = [
     dpg_maturity: "Emerging",
   },
   {
-    id: "14-public-procurement",
-    name: "Public Procurement",
+    id: "14-immigration-travel",
+    name: "Immigration & Travel",
     number: 14,
     tier: "Essential",
     description:
-      "Find and bid on government contracts, track procurement, and view awarded contracts transparently.",
-    dpg_maturity: "Mature",
+      "Apply for passports and visas, check application status, and manage travel documents online.",
+    dpg_maturity: "Gap",
   },
   {
-    id: "15-immigration-travel",
-    name: "Immigration & Travel",
+    id: "15-policing-public-safety",
+    name: "Policing & Public Safety",
     number: 15,
     tier: "Essential",
     description:
-      "Apply for passports and visas, check application status, and manage travel documents online.",
+      "Report a crime online, request a police report, apply for a background check, and check investigation status.",
     dpg_maturity: "Gap",
   },
 ];

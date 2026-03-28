@@ -14,7 +14,7 @@ type LifeStage = {
 
 const timeline: LifeStage[] = [
   {
-    stage: "Birth & early years",
+    stage: "Born",
     services: [
       {
         title: "Register a birth and receive a birth certificate",
@@ -31,7 +31,7 @@ const timeline: LifeStage[] = [
     ],
   },
   {
-    stage: "Childhood & education",
+    stage: "Growing up",
     services: [
       {
         title: "Enrol a child in primary or secondary school",
@@ -39,22 +39,22 @@ const timeline: LifeStage[] = [
         tier: "Essential",
         number: 9,
       },
-      {
-        title: "Access learning materials and coursework online",
-        category: "Education Platform",
-        tier: "Essential",
-        number: 9,
-      },
     ],
   },
   {
-    stage: "Coming of age",
+    stage: "Becoming a citizen",
     services: [
       {
         title: "Apply for a national ID card or digital identity credential",
         category: "Digital Identity",
         tier: "Foundation",
         number: 1,
+      },
+      {
+        title: "Apply for a passport or renew an existing passport",
+        category: "Immigration & Travel",
+        tier: "Essential",
+        number: 14,
       },
       {
         title: "Register to vote in national or local elections",
@@ -65,30 +65,19 @@ const timeline: LifeStage[] = [
     ],
   },
   {
-    stage: "Young adulthood",
+    stage: "Earning a living",
     services: [
-      {
-        title: "Apply for a passport or renew an existing passport",
-        category: "Immigration & Travel",
-        tier: "Essential",
-        number: 15,
-      },
       {
         title: "Find and apply for skills training or career guidance",
         category: "Skills & Labour Market Matching",
         tier: "Frontier",
         number: 20,
       },
-    ],
-  },
-  {
-    stage: "Working life",
-    services: [
       {
         title: "File your annual tax return online",
         category: "Tax Administration",
-        tier: "Essential",
-        number: 7,
+        tier: "Foundation",
+        number: 5,
       },
       {
         title: "Register a new business or company",
@@ -96,45 +85,40 @@ const timeline: LifeStage[] = [
         tier: "Essential",
         number: 10,
       },
+      {
+        title: "Get personalised advice on crops and farm management",
+        category: "Agricultural Extension",
+        tier: "Essential",
+        number: 13,
+      },
     ],
   },
   {
     stage: "Settling down",
     services: [
       {
-        title: "Register ownership of land or property",
-        category: "Land & Property Registry",
-        tier: "Essential",
-        number: 8,
-      },
-      {
         title: "Register a marriage or civil partnership",
         category: "Civil Registration",
         tier: "Foundation",
         number: 2,
       },
+      {
+        title: "Register ownership of land or property",
+        category: "Land & Property Registry",
+        tier: "Essential",
+        number: 8,
+      },
     ],
   },
   {
-    stage: "Livelihood & support",
+    stage: "Getting help",
     services: [
-      {
-        title: "Get personalised advice on crops, planting, and pest management",
-        category: "Agricultural Extension",
-        tier: "Essential",
-        number: 13,
-      },
       {
         title: "Check which benefits or social programmes you are eligible for",
         category: "Social Protection",
         tier: "Essential",
         number: 6,
       },
-    ],
-  },
-  {
-    stage: "Everyday government",
-    services: [
       {
         title: "Receive a government payment into your account",
         category: "Digital Payments",
@@ -147,13 +131,19 @@ const timeline: LifeStage[] = [
         tier: "Essential",
         number: 12,
       },
+      {
+        title: "Report a crime",
+        category: "Policing & Public Safety",
+        tier: "Essential",
+        number: 15,
+      },
     ],
   },
   {
-    stage: "Next-generation services",
+    stage: "Staying healthy",
     services: [
       {
-        title: "Get AI-powered guidance on a government service",
+        title: "Get AI-powered guidance navigating government services",
         category: "AI-Augmented Public Service Delivery",
         tier: "Frontier",
         number: 16,
@@ -170,16 +160,16 @@ const timeline: LifeStage[] = [
     stage: "End of life",
     services: [
       {
-        title: "Redirect a pension or benefit to surviving family members",
-        category: "Social Protection",
-        tier: "Essential",
-        number: 6,
-      },
-      {
         title: "Register a death and receive a death certificate",
         category: "Civil Registration",
         tier: "Foundation",
         number: 2,
+      },
+      {
+        title: "Receive a survivor\u2019s benefit or pension transfer",
+        category: "Social Protection",
+        tier: "Essential",
+        number: 6,
       },
     ],
   },

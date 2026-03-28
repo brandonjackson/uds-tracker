@@ -1,7 +1,7 @@
-# 07 - Tax Administration
+# 05 - Tax Administration
 
 ## Tier
-Essential
+Foundation
 
 ## What This Service Is
 A government-operated digital system for tax registration, filing, assessment, payment, and compliance management. This covers individual income tax, corporate tax, value-added tax (VAT), customs duties, and other fiscal obligations administered by the national revenue authority.

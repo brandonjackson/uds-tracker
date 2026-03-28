@@ -1,7 +1,7 @@
 {
   "country_code": "AUS",
   "country_name": "Australia",
-  "service_id": "15-immigration-travel",
+  "service_id": "14-immigration-travel",
   "status": "available",
   "confidence": "medium",
   "summary": "Australia provides comprehensive digital immigration and travel services through ImmiAccount for online visa applications and management, the Australian Passport Office's online renewal service, and SmartGates for automated border processing at airports. The majority of visa subclasses can be applied for and managed entirely online.",
