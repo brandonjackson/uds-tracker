@@ -1,0 +1,31 @@
+{
+  "country_code": "USA",
+  "country_name": "United States",
+  "service_id": "07-tax-administration",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "The Internal Revenue Service (IRS) provides extensive digital tax administration services. E-file processes over 150 million returns annually with a 90%+ electronic filing rate. The IRS Online Account allows taxpayers to view balances, payment history, and transcripts. The Direct File pilot program enables eligible taxpayers to file federal returns directly with the IRS for free. Free File partnerships provide no-cost tax preparation for qualifying individuals.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "IRS E-File",
+      "url": "https://www.irs.gov/filing/e-file-options",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "IRS Online Account",
+      "url": "https://www.irs.gov/payments/your-online-account",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "IRS Direct File",
+      "url": "https://directfile.irs.gov/",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "The IRS Direct File program expanded from its 2024 pilot to cover additional states and tax situations. ID.me identity verification is used for secure account access. Modernization efforts under the Inflation Reduction Act have accelerated digital service improvements, though the system still relies heavily on third-party tax preparation software for most filers.",
+  "dpgs_deployed": []
+}

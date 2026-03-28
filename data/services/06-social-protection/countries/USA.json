@@ -1,0 +1,31 @@
+{
+  "country_code": "USA",
+  "country_name": "United States",
+  "service_id": "06-social-protection",
+  "status": "partial",
+  "confidence": "medium",
+  "summary": "The United States provides social protection through a fragmented system of federal and state programs. Benefits.gov serves as a federal eligibility screening tool across 1,000+ programs. Social Security Administration (SSA) offers online account management for retirement, disability, and survivor benefits. SNAP, Medicaid, and TANF are administered at the state level with varying degrees of digital service availability. The lack of a unified national system creates significant inconsistencies in digital access.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Benefits.gov - Official Benefits Portal",
+      "url": "https://www.benefits.gov/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Social Security Administration - My Account",
+      "url": "https://www.ssa.gov/myaccount/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "USAGov Benefits Overview",
+      "url": "https://www.usa.gov/benefits",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "The US social protection digital landscape is characterized by federalism, with each state operating its own eligibility and enrollment systems for programs like SNAP, Medicaid, and unemployment insurance. Some states offer fully digital enrollment while others still require in-person visits. Login.gov is gradually being adopted as a shared identity layer. The fragmented approach results in a patchwork of digital maturity across the country.",
+  "dpgs_deployed": []
+}

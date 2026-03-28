@@ -1,0 +1,25 @@
+{
+  "country_code": "AUS",
+  "country_name": "Australia",
+  "service_id": "12-justice-legal-aid",
+  "status": "partial",
+  "confidence": "medium",
+  "summary": "Australia provides some digital justice and legal aid services, but availability varies significantly across states and territories. Legal Aid commissions in several states offer online eligibility checkers and application forms. Some courts have introduced electronic filing, but the level of digitization is inconsistent across jurisdictions.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "National Legal Aid",
+      "url": "https://www.nationallegalaid.org/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Federal Court of Australia - eLodgment",
+      "url": "https://www.fedcourt.gov.au/online-services/elodgment",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "The Federal Court offers eLodgment for electronic court filing. State-level legal aid organizations (e.g., Legal Aid NSW, Victoria Legal Aid) have varying degrees of online service. The Commonwealth Courts Portal provides case search and some digital filing capabilities.",
+  "dpgs_deployed": []
+}

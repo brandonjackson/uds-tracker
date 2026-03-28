@@ -1,0 +1,25 @@
+{
+  "country_code": "NGA",
+  "country_name": "Nigeria",
+  "service_id": "11-electoral-services",
+  "status": "partial",
+  "confidence": "medium",
+  "summary": "Nigeria's Independent National Electoral Commission (INEC) provides online voter registration through its CVR (Continuous Voter Registration) portal and publishes election results on the IReV (INEC Result Viewing) portal. However, many electoral processes remain paper-based, and digital infrastructure faces challenges with connectivity and accessibility in rural areas.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "INEC - Independent National Electoral Commission",
+      "url": "https://www.inecnigeria.org/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "INEC Result Viewing Portal (IReV)",
+      "url": "https://www.inecelectionresults.ng/",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "INEC introduced the Bimodal Voter Accreditation System (BVAS) for biometric verification at polling units. The IReV portal was deployed for the 2023 general elections to improve results transparency, though technical challenges were reported during rollout.",
+  "dpgs_deployed": []
+}

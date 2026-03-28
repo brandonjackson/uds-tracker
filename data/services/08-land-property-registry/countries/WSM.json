@@ -1,0 +1,33 @@
+{
+  "country_code": "WSM",
+  "country_name": "Samoa",
+  "service_id": "08-land-property-registry",
+  "status": "partial",
+  "confidence": "medium",
+  "summary": "Samoa has deployed the Solutions for Open Land Administration (SOLA) system, a Digital Public Good, to manage land registration and administration. The system handles freehold and government land records digitally, supporting title registration, cadastral mapping, and land dispute resolution. However, approximately 81% of land in Samoa is held under customary tenure, which presents unique challenges for digital registration. The SOLA deployment covers formal land tenure while customary land management processes remain largely traditional.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Samoa Ministry of Natural Resources and Environment",
+      "url": "https://www.mnre.gov.ws/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "SOLA - Solutions for Open Land Administration",
+      "url": "https://www.fao.org/tenure/sola/en/",
+      "type": "dpg_registry",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Digital Public Goods Alliance - SOLA",
+      "url": "https://digitalpublicgoods.net/registry/sola-solutions-for-open-land-administration.html",
+      "type": "dpg_registry",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "SOLA was originally developed with FAO support and is recognized as a Digital Public Good. Samoa was one of the first countries to deploy SOLA for land administration. The system has been adapted for the Pacific Island context. The challenge of integrating customary land tenure with formal digital registration remains an ongoing policy and technical issue across Pacific Island nations.",
+  "dpgs_deployed": [
+    "sola-solutions-for-open-land-administration"
+  ]
+}

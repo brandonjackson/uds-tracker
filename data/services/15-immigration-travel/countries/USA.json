@@ -1,0 +1,25 @@
+{
+  "country_code": "USA",
+  "country_name": "United States",
+  "service_id": "15-immigration-travel",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "The United States offers extensive digital immigration and travel services including USCIS online account for immigration applications and case tracking, the State Department's travel.state.gov for passport applications, and Customs and Border Protection's Global Entry and Mobile Passport Control programs for expedited entry.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "USCIS Online Account",
+      "url": "https://myaccount.uscis.gov/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Travel.State.Gov - U.S. Passports",
+      "url": "https://travel.state.gov/content/travel/en/passports.html",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "USCIS has expanded online filing to cover many immigration benefit forms. The ESTA (Electronic System for Travel Authorization) allows Visa Waiver Program travelers to apply online. CBP One app provides mobile functionality for traveler processing. Online passport renewal was expanded in recent years.",
+  "dpgs_deployed": []
+}

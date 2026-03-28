@@ -1,0 +1,25 @@
+{
+  "country_code": "EST",
+  "country_name": "Estonia",
+  "service_id": "04-health-records",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "Estonia operates a comprehensive e-Health system where patients can view their complete medical records online through the Patient Portal (digilugu.ee). The system aggregates data from all healthcare providers into a unified national health record, including diagnoses, prescriptions, lab results, imaging, and vaccination history. Healthcare providers access records through the Health Information System (TIS), which exchanges data securely via X-Road infrastructure.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Estonian Patient Portal (Digilugu)",
+      "url": "https://www.digilugu.ee/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "e-Estonia - e-Health",
+      "url": "https://e-estonia.com/solutions/healthcare/e-health-record/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "Estonia's e-Health system has been operational since 2008. 99% of health data is digitized, and e-Prescriptions account for 99% of all prescriptions issued. The system uses blockchain technology (KSI) to ensure data integrity. Patients can control access to their records and see which providers have accessed their data.",
+  "dpgs_deployed": ["X-Road"]
+}

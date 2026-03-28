@@ -1,0 +1,27 @@
+{
+  "country_code": "ETH",
+  "country_name": "Ethiopia",
+  "service_id": "13-agricultural-extension",
+  "status": "partial",
+  "confidence": "medium",
+  "summary": "Ethiopia utilizes digital agricultural extension primarily through Digital Green's video-based extension approach, which trains development agents and farmers using locally produced instructional videos. The government's Agricultural Transformation Institute (ATI) supports digital initiatives, but internet penetration and smartphone access remain significant barriers to broader digital extension coverage.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Digital Green - Ethiopia",
+      "url": "https://www.digitalgreen.org/ethiopia/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Ethiopian Agricultural Transformation Institute",
+      "url": "https://www.ati.gov.et/",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "Digital Green is recognized as a Digital Public Good (DPG) by the DPGA. Ethiopia has one of the largest agricultural extension workforces in the world with over 60,000 development agents, but digital tools supplement rather than replace in-person extension. The 8028 IVR-based agricultural hotline provides phone-based advisory services.",
+  "dpgs_deployed": [
+    "Digital Green"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "country_code": "GBR",
+  "country_name": "United Kingdom",
+  "service_id": "15-immigration-travel",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "The UK provides comprehensive digital immigration and travel services through GOV.UK, including online passport applications and renewals, visa applications via the UK Visas and Immigration portal, immigration status checking and sharing (View and Prove service), and ePassport gates at airports for automated border control.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Apply online for a UK passport - GOV.UK",
+      "url": "https://www.gov.uk/apply-renew-passport",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "UK Visas and Immigration",
+      "url": "https://www.gov.uk/government/organisations/uk-visas-and-immigration",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "The UK has moved to a digital-by-default immigration system, with eVisas replacing physical immigration documents. The View and Prove service allows immigration status holders to share their status with employers and landlords digitally. The EU Settlement Scheme was a major digital-first immigration application.",
+  "dpgs_deployed": []
+}

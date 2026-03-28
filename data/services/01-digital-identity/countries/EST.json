@@ -1,0 +1,31 @@
+{
+  "country_code": "EST",
+  "country_name": "Estonia",
+  "service_id": "01-digital-identity",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "Estonia operates one of the world's most advanced digital identity systems. Every citizen and resident holds a mandatory national ID card with a chip enabling cryptographic authentication and digital signatures. The system supports e-Residency, allowing non-residents to establish a trusted digital identity for accessing Estonian e-services. The ID card is used for voting, healthcare access, banking, tax filing, and over 99% of government services.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "e-Estonia - e-Identity",
+      "url": "https://e-estonia.com/solutions/e-identity/id-card/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "e-Residency Programme",
+      "url": "https://www.e-resident.gov.ee/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "SK ID Solutions",
+      "url": "https://www.skidsolutions.eu/",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "Estonia's ID card infrastructure relies on public key infrastructure (PKI) managed by SK ID Solutions. Mobile-ID and Smart-ID provide alternative digital identity verification methods. The e-Residency programme has enrolled over 100,000 e-residents from 170+ countries.",
+  "dpgs_deployed": ["X-Road"]
+}

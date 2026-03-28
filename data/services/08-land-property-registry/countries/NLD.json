@@ -1,0 +1,31 @@
+{
+  "country_code": "NLD",
+  "country_name": "Netherlands",
+  "service_id": "08-land-property-registry",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "The Kadaster (Netherlands' Cadastre, Land Registry and Mapping Agency) operates a fully digitized land registry system. All property transactions, mortgage registrations, and cadastral data are accessible online. The PDOK (Publieke Dienstverlening Op de Kaart) platform provides open geospatial data. The Kadaster's online portal enables professionals and citizens to search property records, view cadastral maps, and access ownership information digitally.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Kadaster - Netherlands Cadastre",
+      "url": "https://www.kadaster.nl/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Kadaster Online - Property Search",
+      "url": "https://www.kadaster.nl/zakelijk/producten/eigendom/kadaster-online",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "PDOK - National Geo-data Portal",
+      "url": "https://www.pdok.nl/",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "The Kadaster has been a leader in digital land administration for decades. All parcels in the Netherlands are registered with complete digital records. The organization actively contributes to international land administration standards and provides technical assistance to developing countries. Open data initiatives make much cadastral information freely available.",
+  "dpgs_deployed": []
+}

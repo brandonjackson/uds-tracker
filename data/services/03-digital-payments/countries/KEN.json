@@ -1,0 +1,25 @@
+{
+  "country_code": "KEN",
+  "country_name": "Kenya",
+  "service_id": "03-digital-payments",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "Kenya is a global leader in mobile money, anchored by Safaricom's M-Pesa platform, which has over 30 million active users. M-Pesa enables person-to-person transfers, bill payments, savings, and loans via mobile phone without requiring a bank account. The government has integrated M-Pesa and other mobile money platforms for tax collection (iTax), government-to-person payments, and social protection disbursements. The Central Bank of Kenya regulates mobile money under the National Payment System Act.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "M-Pesa - Safaricom",
+      "url": "https://www.safaricom.co.ke/personal/m-pesa",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Central Bank of Kenya - National Payment System",
+      "url": "https://www.centralbank.go.ke/national-payments-system/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "M-Pesa launched in 2007 and now processes transactions equivalent to approximately 50% of Kenya's GDP. Mobile money has been transformative for financial inclusion, with over 80% of adults using mobile money services. Kenya's success has served as a model for mobile money deployments across Africa and beyond.",
+  "dpgs_deployed": []
+}

@@ -1,0 +1,25 @@
+{
+  "country_code": "IND",
+  "country_name": "India",
+  "service_id": "04-health-records",
+  "status": "partial",
+  "confidence": "medium",
+  "summary": "India is rolling out the Ayushman Bharat Digital Mission (ABDM), which aims to create a unified digital health ecosystem. The system assigns a 14-digit Ayushman Bharat Health Account (ABHA) number to citizens, enabling the creation of longitudinal digital health records. ABDM facilitates interoperability between hospitals, clinics, labs, and pharmacies through Health Information Exchange and Consent Manager (HIE-CM). While the foundational infrastructure is operational, adoption among healthcare providers is still growing.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Ayushman Bharat Digital Mission (ABDM)",
+      "url": "https://abdm.gov.in/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "National Health Authority - ABHA",
+      "url": "https://healthid.ndhm.gov.in/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "Over 500 million ABHA numbers have been created, but active linking of health records remains limited. ABDM is part of the broader India Stack digital public infrastructure. The system faces challenges in onboarding the vast private healthcare sector, which accounts for approximately 70% of healthcare delivery in India. DHIS2 is separately used for public health programme reporting.",
+  "dpgs_deployed": ["DHIS2"]
+}

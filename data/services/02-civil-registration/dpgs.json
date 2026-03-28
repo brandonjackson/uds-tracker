@@ -1,0 +1,16 @@
+[
+  {
+    "name": "OpenCRVS",
+    "url": "https://www.opencrvs.org",
+    "description": "Open-source civil registration and vital statistics platform designed for low-resource settings. Supports birth, death, and marriage registration with offline capability and interoperability.",
+    "maturity": "Mature",
+    "countries_deployed": ["BD", "ZA", "NE", "UG", "MZ"]
+  },
+  {
+    "name": "DHIS2",
+    "url": "https://dhis2.org",
+    "description": "Open-source health information management system widely used for vital statistics reporting and dashboards. Supports aggregate and individual-level data collection for CRVS monitoring.",
+    "maturity": "Mature",
+    "countries_deployed": ["BD", "SL", "TZ", "MZ", "UG", "LR", "GH"]
+  }
+]

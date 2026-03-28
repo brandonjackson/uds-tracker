@@ -1,0 +1,31 @@
+{
+  "country_code": "KEN",
+  "country_name": "Kenya",
+  "service_id": "06-social-protection",
+  "status": "partial",
+  "confidence": "medium",
+  "summary": "Kenya's Inua Jamii programme provides cash transfers to orphans and vulnerable children, older persons, and persons with severe disabilities. The programme uses a digital single registry and increasingly leverages mobile money (M-Pesa) for payment delivery. The Enhanced Single Registry integrates beneficiary data across social protection programs. Digital registration is expanding but coverage remains incomplete in remote and arid areas.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Inua Jamii - Ministry of Labour and Social Protection",
+      "url": "https://www.socialprotection.go.ke/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Kenya Social Protection Single Registry",
+      "url": "https://mis.socialprotection.go.ke/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "World Bank - Kenya Social Protection Overview",
+      "url": "https://www.worldbank.org/en/country/kenya/overview",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "Inua Jamii reaches approximately 1.2 million beneficiaries across three cash transfer programmes. Mobile money payments via M-Pesa have significantly improved delivery efficiency. The National Safety Net Program (NSNP) supported by the World Bank continues to strengthen digital systems, but targeting and enrollment in arid and semi-arid counties remain challenging.",
+  "dpgs_deployed": []
+}

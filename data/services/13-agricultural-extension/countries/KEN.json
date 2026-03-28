@@ -1,0 +1,25 @@
+{
+  "country_code": "KEN",
+  "country_name": "Kenya",
+  "service_id": "13-agricultural-extension",
+  "status": "partial",
+  "confidence": "medium",
+  "summary": "Kenya has a growing ecosystem of digital agricultural extension services, including private platforms like M-Farm and Safaricom's DigiFarm, alongside the government's Kenya Agricultural and Livestock Research Organization (KALRO) portal. These provide market price information, agronomic advice, and input access, but coverage and adoption remain uneven across regions.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "KALRO - Kenya Agricultural and Livestock Research Organization",
+      "url": "https://www.kalro.org/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "DigiFarm by Safaricom",
+      "url": "https://www.safaricom.co.ke/personal/m-pesa/grow-your-money/digifarm",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "DigiFarm leverages M-Pesa's mobile money network to reach smallholder farmers with financial services, inputs, and market access. KALRO provides research-based extension content. The National Agricultural Extension Policy promotes digital delivery, but county-level extension services remain largely in-person.",
+  "dpgs_deployed": []
+}

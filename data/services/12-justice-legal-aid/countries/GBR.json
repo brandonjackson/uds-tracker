@@ -1,0 +1,25 @@
+{
+  "country_code": "GBR",
+  "country_name": "United Kingdom",
+  "service_id": "12-justice-legal-aid",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "The UK provides comprehensive digital justice and legal aid services including the Legal Aid Eligibility Checker on GOV.UK, online money claims (small claims), online divorce applications, and the Find a Court or Tribunal service. The HMCTS (HM Courts & Tribunals Service) Reform Programme has digitized many court processes.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Check if you can get legal aid - GOV.UK",
+      "url": "https://www.gov.uk/check-legal-aid",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "HM Courts & Tribunals Service",
+      "url": "https://www.gov.uk/government/organisations/hm-courts-and-tribunals-service",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "The HMCTS Reform Programme has introduced online services for civil money claims, divorce, probate, and social security appeals. The Find a Court or Tribunal tool provides location, contact, and jurisdiction information for all courts in England and Wales.",
+  "dpgs_deployed": []
+}

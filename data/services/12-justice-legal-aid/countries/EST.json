@@ -1,0 +1,25 @@
+{
+  "country_code": "EST",
+  "country_name": "Estonia",
+  "service_id": "12-justice-legal-aid",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "Estonia offers fully digital justice services through the e-File system, which allows citizens and legal professionals to file court documents, track case progress, and access court decisions online. Legal aid applications can be submitted digitally, and the Public E-File portal provides public access to court information.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "e-File - Estonian Court Information System",
+      "url": "https://www.e-toimik.ee/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Estonian Courts - Digital Services",
+      "url": "https://www.kohus.ee/en",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "Estonia's e-File system has been operational since 2009 and is integrated with the national digital identity infrastructure. Court hearings can be conducted via video conference. The system covers civil, criminal, and administrative proceedings.",
+  "dpgs_deployed": []
+}

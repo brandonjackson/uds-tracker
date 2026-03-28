@@ -1,0 +1,31 @@
+{
+  "country_code": "KEN",
+  "country_name": "Kenya",
+  "service_id": "09-education-platform",
+  "status": "partial",
+  "confidence": "medium",
+  "summary": "Kenya has made notable progress in digital education through the Kenya Education Cloud and the Kenya Institute of Curriculum Development (KICD) digital content platform. The Kenya Education Cloud provides online learning resources aligned with the Competency-Based Curriculum (CBC). The KICD Kenya Education Cloud hosts digital textbooks, video lessons, and interactive content. The NEMIS (National Education Management Information System) manages student enrollment and school data digitally. However, device access and internet connectivity remain barriers in rural areas.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Kenya Education Cloud - KICD",
+      "url": "https://kec.ac.ke/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "KICD Digital Content",
+      "url": "https://www.kicd.ac.ke/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "NEMIS - Ministry of Education",
+      "url": "https://nemis.education.go.ke/",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "The Digital Literacy Programme (DLP) distributed devices to primary schools but sustainability and maintenance remain challenges. KUCCPS manages university placement digitally. The Kenya National Examinations Council (KNEC) has digitized exam registration and results processing. Private sector platforms like Eneza Education and M-Shule provide mobile-based learning that reaches students without internet access via USSD and SMS.",
+  "dpgs_deployed": []
+}

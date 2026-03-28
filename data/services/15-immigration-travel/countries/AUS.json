@@ -1,0 +1,25 @@
+{
+  "country_code": "AUS",
+  "country_name": "Australia",
+  "service_id": "15-immigration-travel",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "Australia provides comprehensive digital immigration and travel services through ImmiAccount for online visa applications and management, the Australian Passport Office's online renewal service, and SmartGates for automated border processing at airports. The majority of visa subclasses can be applied for and managed entirely online.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "ImmiAccount - Department of Home Affairs",
+      "url": "https://online.immi.gov.au/lusc/login",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Australian Passport Office",
+      "url": "https://www.passports.gov.au/",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "Australia was an early adopter of electronic travel authorization (ETA) and ePassport technology. The Digital Passenger Declaration replaced the previous incoming passenger card. VEVO (Visa Entitlement Verification Online) allows employers and organizations to check visa status digitally.",
+  "dpgs_deployed": []
+}

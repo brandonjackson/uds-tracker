@@ -1,0 +1,31 @@
+{
+  "country_code": "SWE",
+  "country_name": "Sweden",
+  "service_id": "03-digital-payments",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "Sweden is one of the world's most cashless societies, with digital payments deeply embedded in both private and public sectors. Swish, a mobile payment system developed by major Swedish banks, is used by over 8 million people (approximately 80% of the population). BankID provides secure digital authentication for government and financial transactions. The Swedish Tax Agency (Skatteverket) and other government bodies accept digital payments for taxes, fees, and fines through integrated online platforms.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Swish",
+      "url": "https://www.swish.nu/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Skatteverket - Paying Tax",
+      "url": "https://www.skatteverket.se/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Sveriges Riksbank - Payments in Sweden",
+      "url": "https://www.riksbank.se/en-gb/payments--cash/",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "Cash usage in Sweden has declined to under 10% of point-of-sale transactions. The Riksbank is exploring an e-krona (central bank digital currency) as a complement to declining cash use. BankID, while not a payment system itself, is the authentication backbone for virtually all digital payments and government services in Sweden.",
+  "dpgs_deployed": []
+}

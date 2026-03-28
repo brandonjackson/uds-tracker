@@ -1,0 +1,19 @@
+{
+  "country_code": "KOR",
+  "country_name": "South Korea",
+  "service_id": "14-public-procurement",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "South Korea operates KONEPS (Korea ON-line E-Procurement System), widely regarded as one of the world's most advanced e-procurement platforms. KONEPS handles the entire procurement lifecycle digitally, from tender announcement through bidding, evaluation, contracting, and payment, serving all central and local government agencies.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "KONEPS - Korea ON-line E-Procurement System (Public Procurement Service)",
+      "url": "https://www.pps.go.kr/eng/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "KONEPS was launched in 2002 and processes procurement worth tens of billions of dollars annually. It integrates with over 200 external systems including business registration, tax, and banking. KONEPS has been recognized by the UN and World Bank as a best-practice model for e-procurement and has been replicated in several developing countries.",
+  "dpgs_deployed": []
+}

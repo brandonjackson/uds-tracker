@@ -1,0 +1,31 @@
+{
+  "country_code": "GBR",
+  "country_name": "United Kingdom",
+  "service_id": "07-tax-administration",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "HM Revenue and Customs (HMRC) provides comprehensive digital tax services. Self Assessment tax returns are filed online by over 12 million taxpayers annually. Making Tax Digital (MTD) mandates digital record-keeping and quarterly submissions for VAT-registered businesses and is expanding to Income Tax Self Assessment. The Personal Tax Account enables individuals to manage tax codes, check National Insurance records, and claim refunds online.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "HMRC Online Services",
+      "url": "https://www.gov.uk/log-in-register-hmrc-online-services",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Making Tax Digital - HMRC",
+      "url": "https://www.gov.uk/government/publications/making-tax-digital",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Personal Tax Account - GOV.UK",
+      "url": "https://www.gov.uk/personal-tax-account",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "Making Tax Digital for VAT has been mandatory since April 2022 for all VAT-registered businesses. MTD for Income Tax Self Assessment is being phased in from April 2026 for those with qualifying income over GBP 50,000. HMRC app allows mobile access to tax information and services.",
+  "dpgs_deployed": []
+}

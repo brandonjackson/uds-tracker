@@ -1,0 +1,9 @@
+[
+  {
+    "name": "UNCTAD eRegistrations",
+    "url": "https://eregistrations.org",
+    "description": "Open-source system developed by UNCTAD for simplifying and digitizing business registration and licensing procedures. Enables governments to create online one-stop shops for business formalities.",
+    "maturity": "Emerging",
+    "countries_deployed": ["GT", "SV", "BJ", "CM", "ML", "TD", "IQ"]
+  }
+]

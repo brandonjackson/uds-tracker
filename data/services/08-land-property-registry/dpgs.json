@@ -1,0 +1,16 @@
+[
+  {
+    "name": "SOLA",
+    "url": "https://www.fao.org/tenure/sola/en/",
+    "description": "Solutions for Open Land Administration. FAO-supported open-source software suite for land administration including cadastral mapping, title registration, and systematic land adjudication.",
+    "maturity": "Emerging",
+    "countries_deployed": ["WS", "TO", "LA", "NP", "LR"]
+  },
+  {
+    "name": "Cadasta",
+    "url": "https://cadasta.org",
+    "description": "Open-source platform for documenting and managing land and resource rights, particularly for communities with informal or customary tenure. Supports participatory mapping and digital record-keeping.",
+    "maturity": "Emerging",
+    "countries_deployed": ["IN", "NG", "MZ", "MM", "CO"]
+  }
+]

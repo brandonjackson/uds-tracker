@@ -1,0 +1,25 @@
+{
+  "country_code": "GBR",
+  "country_name": "United Kingdom",
+  "service_id": "03-digital-payments",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "The United Kingdom has comprehensive digital payment infrastructure for government services. GOV.UK Pay provides a centralized payment platform used by over 400 government services for taxes, fines, licences, and applications. Benefits and pensions are paid via direct bank transfer (BACS). The Faster Payments Service enables real-time bank transfers. HMRC accepts digital payments for income tax, VAT, and corporation tax through multiple channels.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "GOV.UK Pay",
+      "url": "https://www.payments.service.gov.uk/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "GOV.UK - Pay a tax bill",
+      "url": "https://www.gov.uk/pay-tax",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "GOV.UK Pay is an open-source platform developed by the Government Digital Service (GDS). It processes billions of pounds in government payments annually. The UK also has one of the highest card payment penetrations in the world, with over 85% of transactions being cashless.",
+  "dpgs_deployed": []
+}

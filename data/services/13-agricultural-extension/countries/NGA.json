@@ -1,0 +1,25 @@
+{
+  "country_code": "NGA",
+  "country_name": "Nigeria",
+  "service_id": "13-agricultural-extension",
+  "status": "partial",
+  "confidence": "medium",
+  "summary": "Nigeria offers some digital agricultural services through the Federal Ministry of Agriculture and Rural Development (FMARD), including the e-Wallet system for distributing subsidized inputs (seeds and fertilizers) to farmers via mobile phones. However, digital extension services remain limited, with most advisory services delivered in person by state-level agricultural development programmes.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Federal Ministry of Agriculture and Rural Development (FMARD)",
+      "url": "https://fmard.gov.ng/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Nigeria Incentive-Based Risk Sharing System for Agricultural Lending (NIRSAL)",
+      "url": "https://nirsal.com/",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "The e-Wallet programme was launched in 2012 under the Growth Enhancement Support (GES) scheme, reaching millions of farmers for subsidized inputs. NIRSAL provides digital credit risk assessment for agricultural lending. Private platforms such as FarmCrowdy and Thrive Agric offer digital agricultural services but are not government-led.",
+  "dpgs_deployed": []
+}

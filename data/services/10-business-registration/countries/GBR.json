@@ -1,0 +1,31 @@
+{
+  "country_code": "GBR",
+  "country_name": "United Kingdom",
+  "service_id": "10-business-registration",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "Companies House provides fully digital company registration and management services. A new company can be registered online in as little as 24 hours for GBP 12. The digital service handles incorporation, annual filings, confirmation statements, and company updates. Over 99% of company incorporations are now filed digitally. The Companies House public register provides free online access to information on over 5 million companies, including filing history and officer details.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Companies House - Register a Company",
+      "url": "https://www.gov.uk/set-up-limited-company",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Companies House Service - Company Search",
+      "url": "https://find-and-update.company-information.service.gov.uk/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Companies House - Filing Online",
+      "url": "https://www.gov.uk/file-your-company-accounts-and-tax-return",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "Companies House has been a pioneer in open data, providing a free public API and bulk data downloads. The Economic Crime and Corporate Transparency Act 2023 introduced identity verification requirements for directors and persons with significant control. Companies House is undergoing significant digital transformation to support its expanded role in combating economic crime.",
+  "dpgs_deployed": []
+}

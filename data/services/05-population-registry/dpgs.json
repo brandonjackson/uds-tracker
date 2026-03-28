@@ -1,0 +1,16 @@
+[
+  {
+    "name": "MOSIP",
+    "url": "https://mosip.io",
+    "description": "Modular Open Source Identity Platform that provides foundational identity infrastructure which can serve as the basis for a population registry, including demographic data management and deduplication.",
+    "maturity": "Mature",
+    "countries_deployed": ["IN", "MA", "PH", "ET", "SN"]
+  },
+  {
+    "name": "OpenCRVS",
+    "url": "https://www.opencrvs.org",
+    "description": "Open-source civil registration platform whose birth, death, and marriage records feed into population stock data. Provides the event-driven foundation for maintaining an up-to-date population registry.",
+    "maturity": "Mature",
+    "countries_deployed": ["BD", "ZA", "NE", "UG"]
+  }
+]

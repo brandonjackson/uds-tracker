@@ -1,0 +1,16 @@
+[
+  {
+    "name": "OpenSPP",
+    "url": "https://openspp.org",
+    "description": "Open-source social protection platform supporting beneficiary registration, eligibility determination, enrollment, and payment management for social safety net programs.",
+    "maturity": "Emerging",
+    "countries_deployed": ["IQ", "DJ"]
+  },
+  {
+    "name": "OpenG2P",
+    "url": "https://openg2p.org",
+    "description": "Open-source government-to-person payment and social protection delivery platform. Supports beneficiary management, digital disbursement, and integration with identity and payment systems.",
+    "maturity": "Emerging",
+    "countries_deployed": ["SN", "ET", "PH"]
+  }
+]

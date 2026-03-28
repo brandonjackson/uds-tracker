@@ -1,0 +1,31 @@
+{
+  "country_code": "IND",
+  "country_name": "India",
+  "service_id": "08-land-property-registry",
+  "status": "partial",
+  "confidence": "medium",
+  "summary": "India's land administration is managed by individual states, resulting in highly variable levels of digitization. The central Digital India Land Records Modernization Programme (DILRMP) aims to computerize land records, integrate registration and cadastral data, and enable online access. Several states like Karnataka (Bhoomi), Andhra Pradesh, and Maharashtra have made significant progress with online land records and digital mutation processes. However, many states still have incomplete or fragmented digital records.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "DILRMP - Department of Land Resources",
+      "url": "https://dilrmp.gov.in/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Bhoomi - Karnataka Land Records",
+      "url": "https://landrecords.karnataka.gov.in/",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "National Generic Document Registration System (NGDRS)",
+      "url": "https://ngdrs.gov.in/",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "DILRMP targets computerization of all land records across 36 states and union territories. The National Generic Document Registration System (NGDRS) enables online registration in participating states. Progress varies dramatically: some states have near-complete digitization while others have barely begun. Survey and cadastral map digitization remains a major challenge. The lack of conclusive titling (most states use presumptive titling) limits the effectiveness of digital systems.",
+  "dpgs_deployed": []
+}

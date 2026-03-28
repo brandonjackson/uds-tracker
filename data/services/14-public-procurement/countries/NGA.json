@@ -1,0 +1,25 @@
+{
+  "country_code": "NGA",
+  "country_name": "Nigeria",
+  "service_id": "14-public-procurement",
+  "status": "partial",
+  "confidence": "medium",
+  "summary": "Nigeria has introduced the NOCOPO (Nigeria Open Contracting Portal) and the Bureau of Public Procurement (BPP) maintains an online portal for procurement information. However, adoption of e-procurement remains incomplete, with many agencies still relying on manual processes. The transition to fully digital procurement is ongoing.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Bureau of Public Procurement - Nigeria",
+      "url": "https://www.bpp.gov.ng/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Nigeria Open Contracting Portal (NOCOPO)",
+      "url": "https://nocopo.bpp.gov.ng/",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "The Public Procurement Act 2007 established the BPP and introduced procurement reforms. NOCOPO was launched to improve transparency using open contracting principles. However, compliance with e-procurement requirements varies across federal ministries, departments, and agencies, and state-level procurement digitization is even more limited.",
+  "dpgs_deployed": []
+}

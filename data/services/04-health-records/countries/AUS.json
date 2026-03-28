@@ -1,0 +1,25 @@
+{
+  "country_code": "AUS",
+  "country_name": "Australia",
+  "service_id": "04-health-records",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "Australia operates My Health Record, a national digital health record system managed by the Australian Digital Health Agency. The system provides a centralized, opt-out repository of health information including Medicare claims, prescriptions, pathology reports, diagnostic imaging, hospital discharge summaries, and vaccination records. Citizens can access their records online or via the myGov portal. Healthcare providers can view and contribute to records through clinical software integrated with the My Health Record system.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "My Health Record",
+      "url": "https://www.myhealthrecord.gov.au/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Australian Digital Health Agency",
+      "url": "https://www.digitalhealth.gov.au/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "My Health Record transitioned to an opt-out model in 2019, resulting in approximately 90% of Australians having a record. The system is supplemented by electronic prescribing (ePrescribing) and secure messaging between healthcare providers. The Australian Immunisation Register (AIR) is fully integrated, providing comprehensive vaccination records.",
+  "dpgs_deployed": []
+}

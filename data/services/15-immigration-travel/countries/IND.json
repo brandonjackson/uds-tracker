@@ -1,0 +1,25 @@
+{
+  "country_code": "IND",
+  "country_name": "India",
+  "service_id": "15-immigration-travel",
+  "status": "partial",
+  "confidence": "medium",
+  "summary": "India provides digital immigration and travel services through the Passport Seva portal for passport applications and tracking, the e-Visa system for eligible foreign nationals, and the Bureau of Immigration's online services. However, processing still requires in-person visits for verification and biometrics, and some services experience delays and accessibility issues.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Passport Seva - Ministry of External Affairs",
+      "url": "https://www.passportindia.gov.in/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Indian e-Visa",
+      "url": "https://indianvisaonline.gov.in/evisa/",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "The Passport Seva Project operates through a network of Passport Seva Kendras (PSKs) and Post Office Passport Seva Kendras for document verification and biometrics. India's e-Visa facility covers over 160 countries for tourism, business, medical, and conference purposes. The Immigration, Visa and Foreigners Registration & Tracking (IVFRT) system manages immigration checkpoints digitally.",
+  "dpgs_deployed": []
+}

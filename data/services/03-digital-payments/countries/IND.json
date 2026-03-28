@@ -1,0 +1,25 @@
+{
+  "country_code": "IND",
+  "country_name": "India",
+  "service_id": "03-digital-payments",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "India operates the Unified Payments Interface (UPI), one of the world's most successful real-time digital payment systems. Developed by the National Payments Corporation of India (NPCI), UPI processes over 10 billion transactions monthly, enabling instant bank-to-bank transfers via mobile phones. The system is deeply integrated into government payment infrastructure, including Direct Benefit Transfers (DBT), tax payments, and utility bills. UPI is interoperable across banks and payment apps including PhonePe, Google Pay, and Paytm.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "NPCI - Unified Payments Interface",
+      "url": "https://www.npci.org.in/what-we-do/upi/product-overview",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "UPI Transaction Data - NPCI",
+      "url": "https://www.npci.org.in/what-we-do/upi/upi-ecosystem-statistics",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "UPI launched in 2016 and has grown exponentially, becoming a core component of India Stack. International expansion is underway, with UPI-based payments now accepted in Singapore, UAE, France, and other countries. The system has been instrumental in financial inclusion, bringing hundreds of millions of previously unbanked citizens into the digital economy.",
+  "dpgs_deployed": ["MOSIP"]
+}

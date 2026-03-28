@@ -1,0 +1,31 @@
+{
+  "country_code": "RWA",
+  "country_name": "Rwanda",
+  "service_id": "10-business-registration",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "The Rwanda Development Board (RDB) provides online business registration through its integrated portal. Company registration can be completed online within 6 hours, making Rwanda one of the fastest countries in Africa for business incorporation. The system handles company name reservation, registration, tax identification number assignment, and social security registration in a single digital process. Rwanda's business registration reforms have been recognized as a model for the region.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Rwanda Development Board - Business Registration",
+      "url": "https://org.rdb.rw/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Irembo - Government Services Portal",
+      "url": "https://irembo.gov.rw/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "World Bank - Doing Business Rwanda",
+      "url": "https://www.worldbank.org/en/country/rwanda",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "Rwanda's Irembo e-government platform integrates business registration with other government services. The one-stop-shop approach consolidates multiple registration steps that previously required visits to different agencies. Rwanda has consistently improved its business environment rankings. The system also enables online registration for domestic companies, foreign branches, and cooperatives.",
+  "dpgs_deployed": []
+}

@@ -1,0 +1,31 @@
+{
+  "country_code": "GBR",
+  "country_name": "United Kingdom",
+  "service_id": "06-social-protection",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "The UK provides comprehensive digital social protection through Universal Credit, which consolidates six legacy benefits into a single online system. Claimants manage applications, report changes, and receive payments digitally. The benefits checker on GOV.UK enables citizens to determine eligibility across all welfare programs. Additional digital services include Housing Benefit, Personal Independence Payment, and State Pension online claims.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Universal Credit - GOV.UK",
+      "url": "https://www.gov.uk/universal-credit",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Benefits Calculators - GOV.UK",
+      "url": "https://www.gov.uk/benefits-calculators",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Department for Work and Pensions Digital Services",
+      "url": "https://www.gov.uk/government/organisations/department-for-work-and-pensions",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "Universal Credit has been fully rolled out across the UK since 2024, replacing legacy benefits. Digital-by-default design with assisted digital support for those unable to use online services. Over 6 million households manage claims through the online journal system.",
+  "dpgs_deployed": []
+}
