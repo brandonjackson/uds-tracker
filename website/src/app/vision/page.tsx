@@ -169,10 +169,10 @@ const timeline: LifeStage[] = [
     stage: "End of life",
     services: [
       {
-        title: "Receive a climate or disaster early warning for your area",
-        category: "Climate & Disaster Early Warning",
-        tier: "Frontier",
-        number: 18,
+        title: "Redirect a pension or benefit to surviving family members",
+        category: "Social Protection",
+        tier: "Essential",
+        number: 6,
       },
       {
         title: "Register a death and receive a death certificate",
