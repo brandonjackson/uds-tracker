@@ -29,7 +29,7 @@ export default function Home() {
             Our Vision
           </p>
           <h1 className="text-3xl sm:text-4xl lg:text-[48px] font-bold leading-tight mb-4">
-            Everyone deserves brilliant digital services by 2035.
+            Everyone deserves brilliant digital services from their government. By 2035.
           </h1>
           <p className="text-lg leading-relaxed max-w-2xl mb-8 opacity-90">
             The next decade should see a transformation in public services
