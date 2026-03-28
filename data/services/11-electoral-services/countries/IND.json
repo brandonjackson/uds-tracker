@@ -1,0 +1,25 @@
+{
+  "country_code": "IND",
+  "country_name": "India",
+  "service_id": "11-electoral-services",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "India provides digital electoral services through the National Voters' Service Portal (NVSP), which allows citizens to search the electoral roll, apply for new voter registration, make corrections, and track application status. The Voter Helpline App offers mobile access. Election results are published digitally by the Election Commission of India.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "National Voters' Service Portal (NVSP)",
+      "url": "https://www.nvsp.in/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Election Commission of India",
+      "url": "https://www.eci.gov.in/",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "NVSP supports Aadhaar-based verification for voter registration. India does not offer internet voting; voting is conducted via Electronic Voting Machines (EVMs) at polling stations. The Voter Helpline App provides booth-level information and queue status.",
+  "dpgs_deployed": []
+}

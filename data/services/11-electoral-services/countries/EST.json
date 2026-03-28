@@ -1,0 +1,25 @@
+{
+  "country_code": "EST",
+  "country_name": "Estonia",
+  "service_id": "11-electoral-services",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "Estonia is a global pioneer in digital electoral services, having introduced legally binding internet voting (i-Voting) in 2005. Citizens can vote online using their national ID card or Mobile-ID, register and verify their voter status digitally, and access election results in real time through the Estonian Election Commission portal.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Estonian Internet Voting - Valimised",
+      "url": "https://www.valimised.ee/en/internet-voting/internet-voting-estonia",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "e-Estonia - i-Voting",
+      "url": "https://e-estonia.com/solutions/e-governance/i-voting/",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "In the 2023 parliamentary elections, over 50% of votes were cast online. Estonia's i-Voting system is built on the national digital identity infrastructure (eID) and uses end-to-end verifiability.",
+  "dpgs_deployed": []
+}

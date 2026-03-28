@@ -1,0 +1,25 @@
+{
+  "country_code": "USA",
+  "country_name": "United States",
+  "service_id": "11-electoral-services",
+  "status": "partial",
+  "confidence": "medium",
+  "summary": "The US federal government provides vote.gov as a centralized portal directing citizens to state-level voter registration. However, electoral administration is decentralized across 50 states, with wide variation in digital service availability. Some states offer full online voter registration and ballot tracking, while others require paper-based processes.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Vote.gov - Register to Vote",
+      "url": "https://vote.gov/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "U.S. Election Assistance Commission",
+      "url": "https://www.eac.gov/",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "As of 2026, approximately 42 states plus the District of Columbia offer online voter registration. Availability of digital services such as ballot tracking, sample ballot preview, and polling place lookup varies significantly by state and county. There is no internet voting at the federal level.",
+  "dpgs_deployed": []
+}

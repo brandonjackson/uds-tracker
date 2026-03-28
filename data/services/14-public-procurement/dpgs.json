@@ -1,0 +1,16 @@
+[
+  {
+    "name": "OCDS (Open Contracting Data Standard)",
+    "url": "https://www.open-contracting.org/data-standard/",
+    "description": "Open data standard for publishing structured, comparable, and reusable procurement data covering planning, tender, award, contract, and implementation stages. Adopted by dozens of governments for procurement transparency.",
+    "maturity": "Mature",
+    "countries_deployed": ["CO", "UA", "MX", "PY", "NG", "GB", "GE", "MD"]
+  },
+  {
+    "name": "Budeshi",
+    "url": "https://budeshi.ng",
+    "description": "Open-source procurement transparency platform that publishes government contracts and procurement data in accessible formats. Originally developed for Nigeria, designed for adaptation in other contexts.",
+    "maturity": "Emerging",
+    "countries_deployed": ["NG"]
+  }
+]

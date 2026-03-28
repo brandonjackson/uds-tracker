@@ -1,0 +1,25 @@
+{
+  "country_code": "FIN",
+  "country_name": "Finland",
+  "service_id": "05-population-registry",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "Finland operates the Population Information System (Vaestotietojarjestelma, VTJ), maintained by the Digital and Population Data Services Agency (Digi- ja vaestotietovirasto, DVV). The system is a comprehensive digital register containing data on all Finnish citizens and permanent residents, including personal identity codes, names, addresses, family relationships, citizenship, and native language. The register serves as the authoritative data source for public administration, elections, taxation, and statistical purposes.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Digital and Population Data Services Agency (DVV)",
+      "url": "https://dvv.fi/en/individuals",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Population Information System - DVV",
+      "url": "https://dvv.fi/en/population-information-system",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "Finland's population register dates back to church parish records from the 1600s and has been fully digitized since the 1970s. The system assigns a personal identity code (henkilotunnus) to every person registered in Finland. DVV also maintains the Building and Dwelling Register. The system supports the Suomi.fi e-service platform for citizen-facing digital government services.",
+  "dpgs_deployed": []
+}

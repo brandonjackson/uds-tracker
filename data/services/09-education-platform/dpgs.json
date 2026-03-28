@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Sunbird",
+    "url": "https://sunbird.org",
+    "description": "Open-source digital infrastructure for learning, designed as building blocks for education platforms. Powers India's DIKSHA platform serving millions of teachers and learners. Supports content management, credentialing, and telemetry.",
+    "maturity": "Mature",
+    "countries_deployed": ["IN", "BR"]
+  },
+  {
+    "name": "OpenEdX",
+    "url": "https://openedx.org",
+    "description": "Open-source platform for creating, delivering, and analyzing online courses. Originally developed by MIT and Harvard for edX, now used by governments and universities worldwide for MOOC and blended learning delivery.",
+    "maturity": "Mature",
+    "countries_deployed": ["US", "SA", "FR", "CN", "JO"]
+  },
+  {
+    "name": "Atingi",
+    "url": "https://atingi.org",
+    "description": "Digital learning platform supported by GIZ providing free access to educational content focused on skills development in developing countries. Built on open-source components with a focus on mobile-first access.",
+    "maturity": "Emerging",
+    "countries_deployed": ["KE", "GH", "NG", "ZA", "RW"]
+  }
+]

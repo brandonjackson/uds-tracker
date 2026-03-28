@@ -1,0 +1,31 @@
+{
+  "country_code": "NGA",
+  "country_name": "Nigeria",
+  "service_id": "10-business-registration",
+  "status": "partial",
+  "confidence": "medium",
+  "summary": "The Corporate Affairs Commission (CAC) of Nigeria has digitized business registration through its online portal. The Company Registration Portal (CRP) enables name reservation, company incorporation, and post-incorporation filings. The introduction of the CAC mobile app and integration with the Bank Verification Number (BVN) system have improved accessibility. However, system reliability issues, intermittent downtime, and delays in processing continue to affect user experience. Physical visits are still sometimes required for certain filings.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Corporate Affairs Commission - Online Portal",
+      "url": "https://www.cac.gov.ng/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "CAC Company Registration Portal",
+      "url": "https://pre.cac.gov.ng/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Nigerian Investment Promotion Commission",
+      "url": "https://nipc.gov.ng/",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "The CAC waived registration fees for small businesses (Business Names) under the CAMA 2020 reforms to encourage formalization. The system supports registration of companies, business names, and incorporated trustees. Integration with FIRS (Federal Inland Revenue Service) for automatic TIN issuance has improved but is not always seamless. Payment gateway issues and document upload failures are commonly reported user complaints.",
+  "dpgs_deployed": []
+}

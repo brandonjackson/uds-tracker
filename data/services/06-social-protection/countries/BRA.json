@@ -1,0 +1,31 @@
+{
+  "country_code": "BRA",
+  "country_name": "Brazil",
+  "service_id": "06-social-protection",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "Brazil operates one of the world's largest conditional cash transfer programs through Bolsa Familia (relaunched in 2023 after the Auxilio Brasil period). The Cadastro Unico (Unified Registry) digitally registers over 90 million low-income individuals, enabling enrollment across multiple social programs. Payments are delivered through Caixa Economica Federal's digital banking infrastructure, including the Caixa Tem app. The system supports digital enrollment, eligibility verification, and benefit tracking.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Bolsa Familia - Ministerio do Desenvolvimento e Assistencia Social",
+      "url": "https://www.gov.br/mds/pt-br/acoes-e-programas/bolsa-familia",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Cadastro Unico",
+      "url": "https://cadunico.cidadania.gov.br/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Caixa Tem Digital Banking",
+      "url": "https://www.caixa.gov.br/caixa-tem/",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "Bolsa Familia reaches over 21 million families. The Cadastro Unico serves as the gateway for over 25 federal social programs. The Caixa Tem app has been instrumental in digitizing benefit payments, particularly accelerated during the COVID-19 emergency aid distribution.",
+  "dpgs_deployed": []
+}

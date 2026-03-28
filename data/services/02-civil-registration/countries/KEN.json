@@ -1,0 +1,25 @@
+{
+  "country_code": "KEN",
+  "country_name": "Kenya",
+  "service_id": "02-civil-registration",
+  "status": "partial",
+  "confidence": "medium",
+  "summary": "Kenya is rolling out an electronic Civil Registration and Vital Statistics (eCRVS) system through the Department of Civil Registration Services. The system digitizes birth, death, and marriage registration, and integrates with the national identification system (Huduma Namba). While urban registration coverage is relatively high, rural and remote areas still face significant gaps in both access and registration completeness.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Kenya Civil Registration Services",
+      "url": "https://www.ecitizen.go.ke/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "UNICEF - Kenya CRVS",
+      "url": "https://www.unicef.org/kenya/birth-registration",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "Birth registration completeness in Kenya is estimated at around 75%, with significant urban-rural disparities. The eCitizen portal allows online applications for birth certificates, but initial registration often still requires in-person visits. Kenya's Vital Statistics Act (2012) provides the legal framework for the system.",
+  "dpgs_deployed": []
+}

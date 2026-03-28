@@ -1,0 +1,31 @@
+{
+  "country_code": "EST",
+  "country_name": "Estonia",
+  "service_id": "10-business-registration",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "Estonia's e-Business Register provides a fully digital lifecycle for business registration and management. Companies can be established online in under 3 hours using a digital ID, with no need for in-person visits or notarization for standard company types. The Commercial Register is integrated with the national X-Road data exchange layer, enabling automatic data sharing with tax, employment, and statistics agencies. E-Residency holders can also register and manage Estonian companies entirely remotely from anywhere in the world.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Estonian e-Business Register",
+      "url": "https://ariregister.rik.ee/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "e-Estonia - Company Registration",
+      "url": "https://e-estonia.com/solutions/business-and-finance/company-registration-portal/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "E-Residency - Start a Company",
+      "url": "https://www.e-resident.gov.ee/",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "Estonia's e-Business Register is often cited as a global best practice for digital business registration. The E-Residency programme has attracted over 100,000 e-residents from 170+ countries, many of whom register Estonian companies. Annual reports can be pre-filled with data from government databases. The system supports digital signatures for all corporate documents and shareholder decisions.",
+  "dpgs_deployed": []
+}

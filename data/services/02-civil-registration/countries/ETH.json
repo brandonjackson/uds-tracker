@@ -1,0 +1,25 @@
+{
+  "country_code": "ETH",
+  "country_name": "Ethiopia",
+  "service_id": "02-civil-registration",
+  "status": "partial",
+  "confidence": "medium",
+  "summary": "Ethiopia established its civil registration and vital statistics (CRVS) system through the Vital Events Registration Agency (VERA), created in 2016. The system is being developed with support from UNICEF and other international partners. While the legal framework is in place and registration offices have been established at kebele (local) level across the country, coverage remains incomplete, particularly in pastoral and remote areas. Digitization of records is in early stages.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Ethiopia Vital Events Registration Agency (VERA)",
+      "url": "https://www.vera.gov.et/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "UNICEF - Ethiopia Birth Registration",
+      "url": "https://www.unicef.org/ethiopia/birth-registration",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "Ethiopia only established mandatory civil registration in 2016, making it one of the last countries in Africa to do so. Birth registration rates have improved but remain below 10% for under-five children in some regions. The government's CRVS digitization strategy is being implemented with support from UNICEF, the World Bank, and Bloomberg Philanthropies' Data for Health Initiative.",
+  "dpgs_deployed": []
+}

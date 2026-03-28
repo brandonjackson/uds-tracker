@@ -1,0 +1,25 @@
+{
+  "country_code": "NGA",
+  "country_name": "Nigeria",
+  "service_id": "01-digital-identity",
+  "status": "partial",
+  "confidence": "medium",
+  "summary": "Nigeria's National Identity Management Commission (NIMC) administers the National Identification Number (NIN) system, which is increasingly becoming a digital identity platform. The NIN is linked to biometric data and is required for SIM registration, banking, and government services. However, significant coverage gaps remain, with enrollment not yet reaching the full population, and digital verification services are still maturing.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "National Identity Management Commission (NIMC)",
+      "url": "https://nimc.gov.ng/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "NIMC Digital Identity Ecosystem",
+      "url": "https://nimc.gov.ng/digital-id-ecosystem/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "Nigeria mandated NIN-SIM linkage in 2020, which drove a surge in enrollments. As of 2025, over 100 million NINs have been issued, but the population of approximately 220 million means substantial gaps remain, particularly in rural areas. The digital verification service (NIN Verification) is operational but not yet universally integrated across government services.",
+  "dpgs_deployed": []
+}

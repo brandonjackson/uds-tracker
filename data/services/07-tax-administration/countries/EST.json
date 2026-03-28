@@ -1,0 +1,31 @@
+{
+  "country_code": "EST",
+  "country_name": "Estonia",
+  "service_id": "07-tax-administration",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "Estonia's e-Tax Board (e-MTA) is one of the most advanced digital tax systems globally. Pre-filled tax returns auto-populate income, deductions, and credits from employer and financial institution data, allowing most citizens to complete annual filing in under five minutes. The system handles personal income tax, corporate tax, VAT, and social tax declarations entirely online. Over 98% of tax returns are filed electronically.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Estonian Tax and Customs Board (e-MTA)",
+      "url": "https://www.emta.ee/en",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "e-Estonia - e-Tax",
+      "url": "https://e-estonia.com/solutions/business-and-finance/e-tax/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "OECD Tax Administration - Estonia",
+      "url": "https://www.oecd.org/tax/administration/",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "Estonia pioneered pre-filled tax returns in the early 2000s. The e-Tax system is integrated with the national X-Road data exchange platform, enabling real-time data sharing between government agencies. Authentication uses the national ID card, Mobile-ID, or Smart-ID. The system serves as a model for digital tax administration worldwide.",
+  "dpgs_deployed": []
+}

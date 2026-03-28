@@ -1,0 +1,25 @@
+{
+  "country_code": "GBR",
+  "country_name": "United Kingdom",
+  "service_id": "13-agricultural-extension",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "The UK provides comprehensive digital agricultural services through DEFRA's (Department for Environment, Food & Rural Affairs) online platforms, including the Rural Payments service for subsidies and land management, the Farming and Countryside Programme, and AHDB (Agriculture and Horticulture Development Board) market intelligence and research resources.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Rural Payments Service - GOV.UK",
+      "url": "https://www.gov.uk/guidance/rural-payments",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "AHDB - Agriculture and Horticulture Development Board",
+      "url": "https://ahdb.org.uk/",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "The Rural Payments Agency handles Environmental Land Management (ELM) schemes, Basic Payment Scheme applications, and countryside stewardship online. DEFRA's Farming and Countryside Programme is transitioning agricultural support to digital-first delivery following the UK's departure from the EU Common Agricultural Policy.",
+  "dpgs_deployed": []
+}

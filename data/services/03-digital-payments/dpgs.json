@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Mojaloop",
+    "url": "https://mojaloop.io",
+    "description": "Open-source real-time payment switch enabling interoperability between banks, mobile money operators, and other financial service providers. Designed for financial inclusion in developing economies.",
+    "maturity": "Mature",
+    "countries_deployed": ["TZ", "MZ", "UG", "MM", "SN"]
+  },
+  {
+    "name": "GNU Taler",
+    "url": "https://taler.net",
+    "description": "Privacy-preserving electronic payment system designed for government-compatible digital cash. Supports taxable, auditable transactions while protecting buyer privacy.",
+    "maturity": "Emerging",
+    "countries_deployed": []
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "country_code": "EST",
+  "country_name": "Estonia",
+  "service_id": "15-immigration-travel",
+  "status": "partial",
+  "confidence": "medium",
+  "summary": "Estonia offers the pioneering e-Residency programme, allowing non-residents to access Estonian digital services for business purposes. Visa applications and residence permit processes are partially digitized through the Police and Border Guard Board's online services. However, full end-to-end digital visa application processing is still being developed.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "e-Residency - Republic of Estonia",
+      "url": "https://www.e-resident.gov.ee/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Police and Border Guard Board - Visa and Residence",
+      "url": "https://www.politsei.ee/en/instructions/visa",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "Estonia's e-Residency programme has issued over 100,000 e-Residency cards to citizens of 170+ countries. For traditional immigration, some application steps still require in-person visits. Estonia participates in the EU's common visa policy and is implementing the EU Entry/Exit System (EES).",
+  "dpgs_deployed": []
+}

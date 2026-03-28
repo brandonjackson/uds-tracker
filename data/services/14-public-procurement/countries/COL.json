@@ -1,0 +1,25 @@
+{
+  "country_code": "COL",
+  "country_name": "Colombia",
+  "service_id": "14-public-procurement",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "Colombia provides comprehensive digital procurement through SECOP II (Sistema Electronico de Contratacion Publica), managed by Colombia Compra Eficiente. SECOP II supports end-to-end transactional e-procurement including planning, tendering, evaluation, and contract management. Colombia is a leading adopter of the Open Contracting Data Standard (OCDS).",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "SECOP II - Colombia Compra Eficiente",
+      "url": "https://community.secop.gov.co/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Colombia Compra Eficiente",
+      "url": "https://www.colombiacompra.gov.co/",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "Colombia was one of the first countries to fully adopt OCDS for procurement data publication, enabling transparency and analytics. SECOP II replaced the earlier SECOP I (information-only) platform with full transactional capabilities. The Tienda Virtual del Estado Colombiano provides a digital marketplace for framework agreements.",
+  "dpgs_deployed": []
+}

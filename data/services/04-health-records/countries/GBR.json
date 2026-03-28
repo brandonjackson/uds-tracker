@@ -1,0 +1,25 @@
+{
+  "country_code": "GBR",
+  "country_name": "United Kingdom",
+  "service_id": "04-health-records",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "The United Kingdom provides digital health records through the NHS App, which enables patients in England to view their GP medical records, test results, vaccination status (including COVID-19), and prescriptions. Patients can also book appointments, order repeat prescriptions, and access NHS 111 online. Scotland (NHS Near Me), Wales (NHS Wales App), and Northern Ireland operate separate but comparable digital health platforms. Hospital records are increasingly accessible through linked systems.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "NHS App",
+      "url": "https://www.nhs.uk/nhs-app/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "NHS Digital - GP Connect",
+      "url": "https://digital.nhs.uk/services/gp-connect",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "The NHS App has over 30 million registered users. NHS England's Federated Data Platform is being rolled out to improve data sharing across trusts and care settings. While GP records are broadly accessible digitally, hospital and specialist records integration remains a work in progress in some areas.",
+  "dpgs_deployed": []
+}

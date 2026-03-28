@@ -1,0 +1,31 @@
+{
+  "country_code": "GEO",
+  "country_name": "Georgia",
+  "service_id": "08-land-property-registry",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "Georgia's National Agency of Public Registry (NAPR) provides fully digital property registration services, widely recognized as a global best practice. Property registration can be completed in under one day, with the online portal enabling title searches, application submissions, and status tracking. The system consolidated previously fragmented registries into a single digital platform. Georgia consistently ranks among the top countries globally in the World Bank's ease of registering property indicators.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "National Agency of Public Registry - Georgia",
+      "url": "https://napr.gov.ge/en",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "NAPR Online Services",
+      "url": "https://public.reestri.gov.ge/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "World Bank - Doing Business Georgia",
+      "url": "https://www.worldbank.org/en/country/georgia",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "Georgia's property registration reform is considered one of the most successful in the post-Soviet region. Registration can be completed in 1 day for standard cases or 1-4 hours for expedited service. The NAPR also manages the civil registry and business registry. The system supports electronic signatures and provides public access to property records through the online cadastral map.",
+  "dpgs_deployed": []
+}

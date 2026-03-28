@@ -1,0 +1,31 @@
+{
+  "country_code": "RWA",
+  "country_name": "Rwanda",
+  "service_id": "04-health-records",
+  "status": "partial",
+  "confidence": "medium",
+  "summary": "Rwanda has deployed several digital health information systems, including DHIS2 for national health data aggregation and reporting, and OpenMRS for electronic medical records at select health facilities. The Rwanda Health Management Information System (R-HMIS) collects data from health centres and hospitals. While health facility reporting is largely digitized through DHIS2, patient-facing digital health records are not yet widely available, and electronic medical records are deployed at a subset of facilities.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Rwanda Ministry of Health - HMIS",
+      "url": "https://www.moh.gov.rw/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "DHIS2",
+      "url": "https://dhis2.org/rwanda/",
+      "type": "dpg_registry",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "OpenMRS",
+      "url": "https://openmrs.org/",
+      "type": "dpg_registry",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "Rwanda is a leader in digital health adoption among low-income countries. DHIS2 is used for routine health reporting across all districts. OpenMRS has been deployed at referral hospitals and select health centres. Rwanda's community health worker programme (approximately 45,000 CHWs) uses RapidSMS and other mobile tools for community-level health data collection.",
+  "dpgs_deployed": ["DHIS2", "OpenMRS"]
+}

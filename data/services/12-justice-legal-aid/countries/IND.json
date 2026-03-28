@@ -1,0 +1,25 @@
+{
+  "country_code": "IND",
+  "country_name": "India",
+  "service_id": "12-justice-legal-aid",
+  "status": "partial",
+  "confidence": "medium",
+  "summary": "India has made progress in digitizing court services through the e-Courts project, which provides online case status tracking, cause lists, and court orders for district and high courts. However, digital legal aid services remain limited, with the National Legal Services Authority (NALSA) offering basic online information but limited digital application processes.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "e-Courts Services",
+      "url": "https://ecourts.gov.in/ecourts_home/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "National Legal Services Authority (NALSA)",
+      "url": "https://nalsa.gov.in/",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "The e-Courts project covers over 18,000 courts across India and provides case information via web and the e-Courts Services mobile app. The Supreme Court and some High Courts offer e-filing. Legal aid digitization under NALSA is progressing but remains incomplete, particularly at the district level.",
+  "dpgs_deployed": []
+}

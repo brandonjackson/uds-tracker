@@ -1,0 +1,31 @@
+{
+  "country_code": "GBR",
+  "country_name": "United Kingdom",
+  "service_id": "02-civil-registration",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "The United Kingdom offers comprehensive digital civil registration services. In England and Wales, births and deaths can be registered online through GOV.UK, with certificates available digitally. The General Register Office (GRO) maintains central records. Scotland and Northern Ireland operate separate but equally digitized registration systems. Marriage registrations are managed locally but feed into centralized digital records.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "GOV.UK - Register a birth",
+      "url": "https://www.gov.uk/register-birth",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "GOV.UK - Register a death",
+      "url": "https://www.gov.uk/register-death",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "General Register Office",
+      "url": "https://www.gov.uk/general-register-office",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "England and Wales have had compulsory birth and death registration since 1837. The system has been progressively digitized, with online appointment booking, digital record searches, and electronic certificate ordering now standard. Registration completeness is effectively 100%.",
+  "dpgs_deployed": []
+}

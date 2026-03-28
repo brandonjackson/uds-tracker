@@ -1,0 +1,31 @@
+{
+  "country_code": "USA",
+  "country_name": "United States",
+  "service_id": "09-education-platform",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "The United States has extensive digital education infrastructure at federal and state levels. The Federal Student Aid portal (FAFSA) processes over 17 million financial aid applications annually online. Ed.gov provides centralized access to federal education resources, data, and program information. The National Center for Education Statistics (NCES) offers comprehensive digital data tools. K-12 schools widely use digital learning management systems, and higher education institutions have robust online learning infrastructure.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Federal Student Aid - FAFSA",
+      "url": "https://studentaid.gov/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "U.S. Department of Education",
+      "url": "https://www.ed.gov/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "National Center for Education Statistics",
+      "url": "https://nces.ed.gov/",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "The FAFSA Simplification Act streamlined the financial aid application to fewer questions. Education is primarily managed at state and district levels, leading to varied digital maturity. Major learning management systems (Canvas, Google Classroom, Schoology) are nearly universally adopted in K-12 and higher education. The digital divide in rural and low-income communities remains a concern despite federal broadband initiatives.",
+  "dpgs_deployed": []
+}

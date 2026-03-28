@@ -1,0 +1,31 @@
+{
+  "country_code": "BRA",
+  "country_name": "Brazil",
+  "service_id": "09-education-platform",
+  "status": "partial",
+  "confidence": "medium",
+  "summary": "Brazil's Ministry of Education (MEC) provides several digital education platforms. ProUni (University for All Program) manages scholarship applications online, while SISU (Unified Selection System) handles public university admissions digitally based on ENEM exam scores. The INEP (National Institute for Educational Studies and Research) manages digital assessments and education statistics. The Plataforma MEC RED offers open educational resources. However, significant disparities exist between urban and rural areas, and many public schools lack adequate digital infrastructure.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "MEC - Ministry of Education",
+      "url": "https://www.gov.br/mec/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "ProUni - University Scholarship Program",
+      "url": "https://prouniportal.mec.gov.br/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "SISU - Unified Selection System",
+      "url": "https://sisu.mec.gov.br/",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "Brazil's ENEM (National High School Exam) is one of the world's largest standardized tests, with over 4 million annual participants registering digitally. The e-MEC system provides accreditation and regulatory information for all higher education institutions. COVID-19 exposed significant gaps in digital readiness, particularly in northern and northeastern states. The Escola Conectada (Connected School) program aims to bring broadband to all public schools.",
+  "dpgs_deployed": []
+}

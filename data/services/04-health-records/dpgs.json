@@ -1,0 +1,23 @@
+[
+  {
+    "name": "DHIS2",
+    "url": "https://dhis2.org",
+    "description": "Open-source health information management platform used for aggregate reporting, individual-level tracker data, and health program management. Deployed as the national health information system in over 70 countries.",
+    "maturity": "Mature",
+    "countries_deployed": ["IN", "BD", "KE", "TZ", "UG", "GH", "ZA", "RW", "NG", "SL", "MZ", "ET"]
+  },
+  {
+    "name": "OpenMRS",
+    "url": "https://openmrs.org",
+    "description": "Open-source electronic medical record system designed for resource-constrained environments. Supports clinical encounters, patient tracking, and integration with laboratory and pharmacy systems.",
+    "maturity": "Mature",
+    "countries_deployed": ["KE", "UG", "RW", "MW", "HT", "MZ", "NG"]
+  },
+  {
+    "name": "OpenHIE",
+    "url": "https://ohie.org",
+    "description": "Open Health Information Exchange architecture framework and community. Provides interoperability standards and reference implementations for connecting health information systems at the national level.",
+    "maturity": "Mature",
+    "countries_deployed": ["TZ", "RW", "ET", "BD", "ZA"]
+  }
+]

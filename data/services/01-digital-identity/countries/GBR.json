@@ -1,0 +1,25 @@
+{
+  "country_code": "GBR",
+  "country_name": "United Kingdom",
+  "service_id": "01-digital-identity",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "GOV.UK One Login is replacing the legacy GOV.UK Verify system as the UK's primary digital identity platform. It enables citizens to prove their identity online to access approximately 45 government services, including tax filing, driving licence applications, and benefits claims. The system supports multiple identity verification methods including passport, driving licence, and biometric checks.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "GOV.UK One Login",
+      "url": "https://www.sign-in.service.gov.uk/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "GDS - GOV.UK One Login Programme",
+      "url": "https://gds.blog.gov.uk/category/gov-uk-one-login/",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "GOV.UK Verify was officially retired in April 2023. One Login has been progressively onboarding services since 2022, with approximately 45 services integrated by early 2026.",
+  "dpgs_deployed": []
+}

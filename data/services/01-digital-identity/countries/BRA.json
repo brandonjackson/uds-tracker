@@ -1,0 +1,25 @@
+{
+  "country_code": "BRA",
+  "country_name": "Brazil",
+  "service_id": "01-digital-identity",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "Brazil provides digital identity through the CPF (Cadastro de Pessoas Fisicas) system and the GOV.BR platform. The GOV.BR single sign-on portal enables citizens to access over 4,000 federal government services with tiered identity verification levels (bronze, silver, gold). The platform integrates facial biometric verification and supports digital document storage. Brazil is also rolling out the new Carteira de Identidade Nacional (CIN), a unified national ID card replacing fragmented state-level documents.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "GOV.BR - Portal de Servicos do Governo Federal",
+      "url": "https://www.gov.br/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "GOV.BR Account (Conta GOV.BR)",
+      "url": "https://www.gov.br/governodigital/pt-br/conta-gov-br",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "GOV.BR has over 150 million registered accounts. The platform uses a tiered trust model: bronze (basic CPF verification), silver (facial biometrics or bank validation), and gold (biometric certificate). The CIN rollout, which unifies state-level identity documents under a single national standard linked to the CPF, is ongoing.",
+  "dpgs_deployed": []
+}

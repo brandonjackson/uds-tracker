@@ -1,0 +1,25 @@
+{
+  "country_code": "BRA",
+  "country_name": "Brazil",
+  "service_id": "03-digital-payments",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "Brazil operates PIX, an instant payment system launched by the Central Bank of Brazil (Banco Central do Brasil) in November 2020. PIX enables free, real-time transfers 24/7 between individuals, businesses, and government entities. With over 150 million registered users, PIX has become the most-used payment method in Brazil. The government uses PIX for tax refunds, social benefit disbursements (including Bolsa Familia), and fee collection across federal, state, and municipal services.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Banco Central do Brasil - PIX",
+      "url": "https://www.bcb.gov.br/estabilidadefinanceira/pix",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "PIX Statistics - Banco Central",
+      "url": "https://www.bcb.gov.br/estabilidadefinanceira/estatisticaspix",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "PIX processed over 4 billion transactions in its first month of reaching full adoption and continues to grow rapidly. It has largely displaced boleto bancario (payment slips) and wire transfers for everyday transactions. PIX is credited with significantly advancing financial inclusion in Brazil, particularly among lower-income populations.",
+  "dpgs_deployed": []
+}

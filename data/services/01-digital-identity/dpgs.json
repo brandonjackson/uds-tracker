@@ -1,0 +1,16 @@
+[
+  {
+    "name": "MOSIP",
+    "url": "https://mosip.io",
+    "description": "Modular Open Source Identity Platform. Provides a foundational digital identity system with biometric enrollment, credential issuance, and authentication services.",
+    "maturity": "Mature",
+    "countries_deployed": ["IN", "MA", "PH", "ET", "SN", "TG", "BF"]
+  },
+  {
+    "name": "OpenCRVS",
+    "url": "https://www.opencrvs.org",
+    "description": "Open-source civil registration and vital statistics platform that includes identity verification components linked to birth and death registration.",
+    "maturity": "Mature",
+    "countries_deployed": ["BD", "ZA", "NE", "UG"]
+  }
+]

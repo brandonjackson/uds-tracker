@@ -1,0 +1,31 @@
+{
+  "country_code": "BRA",
+  "country_name": "Brazil",
+  "service_id": "10-business-registration",
+  "status": "partial",
+  "confidence": "medium",
+  "summary": "Brazil has implemented the Redesim (National Network for the Simplification of Registration and Legalization of Businesses) to streamline business registration across federal, state, and municipal levels. The Redesim portal integrates CNPJ registration (federal tax ID), state commercial registry (Junta Comercial), and municipal licensing into a single digital entry point. For low-risk activities, registration can be completed online with automatic approval. However, the experience varies significantly by municipality, with some still requiring in-person steps.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Redesim - Business Registration Portal",
+      "url": "https://www.gov.br/empresas-e-negocios/pt-br/redesim",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Portal do Empreendedor - MEI Registration",
+      "url": "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Receita Federal - CNPJ",
+      "url": "https://www.gov.br/receitafederal/",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "The MEI (Microempreendedor Individual) registration is fully digital and free, enabling informal workers to formalize quickly. Over 15 million MEIs are registered. For larger company types, the process remains more complex due to the need for state and municipal approvals. The Digital Government Strategy has accelerated integration, but full harmonization across 5,570 municipalities remains a work in progress. Processing times range from same-day for MEIs to several weeks in some municipalities.",
+  "dpgs_deployed": []
+}

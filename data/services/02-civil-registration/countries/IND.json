@@ -1,0 +1,25 @@
+{
+  "country_code": "IND",
+  "country_name": "India",
+  "service_id": "02-civil-registration",
+  "status": "partial",
+  "confidence": "medium",
+  "summary": "India's Civil Registration System (CRS) is administered by the Registrar General of India under the Registration of Births and Deaths Act, 1969. While the legal framework mandates registration across all states and union territories, the level of digitization varies significantly by state. Some states like Kerala and Tamil Nadu have fully digital systems, while others still rely heavily on paper-based processes. The national birth and death registration portal enables online registration in participating states.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Office of the Registrar General & Census Commissioner, India",
+      "url": "https://crsorgi.gov.in/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Registration of Births and Deaths in India - Annual Report",
+      "url": "https://censusindia.gov.in/vital_statistics/SRS_Statistical_Report.html",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "India's birth registration completeness has improved to approximately 93% nationally, but death registration lags behind at around 86%. The 2023 amendment to the Registration of Births and Deaths Act mandates a centralized digital database and links birth/death registration to Aadhaar, electoral rolls, and other national databases. Implementation of this amendment is ongoing across states.",
+  "dpgs_deployed": []
+}

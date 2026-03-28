@@ -1,0 +1,25 @@
+{
+  "country_code": "IND",
+  "country_name": "India",
+  "service_id": "13-agricultural-extension",
+  "status": "partial",
+  "confidence": "medium",
+  "summary": "India offers several digital agricultural services including the e-NAM (National Agriculture Market) platform for online commodity trading, the Kisan Suvidha app for weather, market prices, and crop advisory, and the Soil Health Card portal. However, coverage is patchy, with significant gaps in rural connectivity and digital literacy limiting effective reach.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "e-NAM - National Agriculture Market",
+      "url": "https://enam.gov.in/web/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Kisan Suvidha App - Ministry of Agriculture",
+      "url": "https://mkisan.gov.in/",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "e-NAM connects over 1,000 mandis (agricultural markets) across India. The PM-KISAN scheme uses digital infrastructure for direct benefit transfers to farmers. The mKisan platform provides SMS-based crop advisories to millions of farmers, supplementing app-based services.",
+  "dpgs_deployed": []
+}

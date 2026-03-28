@@ -1,0 +1,25 @@
+{
+  "country_code": "NLD",
+  "country_name": "Netherlands",
+  "service_id": "05-population-registry",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "The Netherlands operates the Basisregistratie Personen (BRP), a fully digital population register managed by the Rijksdienst voor Identiteitsgegevens (RvIG) under the Ministry of the Interior. The BRP contains personal data for all residents of the Netherlands and Dutch citizens abroad, including identity data, addresses, family relations, nationality, and travel documents. Municipalities maintain and update records, which are shared in real-time with authorized government organizations through a centralized system.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Rijksdienst voor Identiteitsgegevens (RvIG) - BRP",
+      "url": "https://www.rvig.nl/brp",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "MijnOverheid - Personal Data",
+      "url": "https://mijn.overheid.nl/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "The BRP replaced the older Gemeentelijke Basisadministratie (GBA) system in 2014. Citizens can view their registered personal data through the MijnOverheid portal using DigiD authentication. The BRP is one of several key base registers (basisregistraties) that form the backbone of Dutch digital government, following the once-only data collection principle.",
+  "dpgs_deployed": []
+}

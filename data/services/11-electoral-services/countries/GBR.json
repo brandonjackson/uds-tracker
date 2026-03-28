@@ -1,0 +1,25 @@
+{
+  "country_code": "GBR",
+  "country_name": "United Kingdom",
+  "service_id": "11-electoral-services",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "The UK offers comprehensive digital electoral services including the Register to Vote online service, the ability to check voter registration status, and access to election results through the Electoral Commission website. Postal and proxy vote applications are also available online.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Register to Vote - GOV.UK",
+      "url": "https://www.gov.uk/register-to-vote",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Electoral Commission - Election Results",
+      "url": "https://www.electoralcommission.org.uk/",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "Register to Vote launched in 2014 and has processed tens of millions of applications. The service is consistently rated as one of the best GOV.UK digital services.",
+  "dpgs_deployed": []
+}

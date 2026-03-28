@@ -1,0 +1,31 @@
+{
+  "country_code": "IND",
+  "country_name": "India",
+  "service_id": "06-social-protection",
+  "status": "partial",
+  "confidence": "medium",
+  "summary": "India operates several large-scale digital social protection programs linked through the Aadhaar identity system. PM-KISAN provides direct benefit transfers to over 110 million farmers. Jan Dhan Yojana has enabled 500 million+ bank accounts for financial inclusion. The Public Distribution System (PDS) uses Aadhaar-based biometric authentication for subsidized food grain distribution. However, significant gaps remain in rural connectivity and digital literacy, leading to exclusion errors.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "PM-KISAN Portal",
+      "url": "https://pmkisan.gov.in/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Jan Dhan Yojana - Department of Financial Services",
+      "url": "https://pmjdy.gov.in/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "National Social Assistance Programme",
+      "url": "https://nsap.nic.in/",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "The JAM trinity (Jan Dhan-Aadhaar-Mobile) forms the backbone of India's digital social protection delivery. Direct Benefit Transfer (DBT) platform has disbursed over INR 30 lakh crore across 300+ schemes. Rural connectivity and biometric authentication failures remain challenges in remote areas.",
+  "dpgs_deployed": []
+}

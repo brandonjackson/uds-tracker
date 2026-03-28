@@ -1,0 +1,31 @@
+{
+  "country_code": "GBR",
+  "country_name": "United Kingdom",
+  "service_id": "08-land-property-registry",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "HM Land Registry provides comprehensive digital services for property registration in England and Wales. The online portal enables title searches, property ownership verification, and digital submission of applications. Over 87% of land in England and Wales is registered. The Digital Registration Service allows conveyancers to submit applications electronically, and the Search for Land Property Information service provides instant online access to title registers and plans.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "HM Land Registry",
+      "url": "https://www.gov.uk/government/organisations/land-registry",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Search the Register - HM Land Registry",
+      "url": "https://search-property-information.service.gov.uk/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "HM Land Registry Portal",
+      "url": "https://eservices.landregistry.gov.uk/",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "HM Land Registry processes over 30 million search requests annually. The Digital Street research programme explores emerging technologies including digital identity verification for property transactions. Scotland and Northern Ireland operate separate land registries (Registers of Scotland and Land and Property Services respectively) with their own digital platforms.",
+  "dpgs_deployed": []
+}

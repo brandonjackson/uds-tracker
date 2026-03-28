@@ -1,0 +1,25 @@
+{
+  "country_code": "GEO",
+  "country_name": "Georgia",
+  "service_id": "14-public-procurement",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "Georgia operates a fully electronic public procurement system through the State Procurement Agency (SPA). The e-procurement portal supports electronic tendering, reverse auctions, and simplified procurement for low-value purchases. All public procurement above defined thresholds must be conducted through the electronic system, ensuring transparency and competition.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "State Procurement Agency of Georgia - E-Procurement",
+      "url": "https://tenders.procurement.gov.ge/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "State Procurement Agency of Georgia",
+      "url": "https://procurement.gov.ge/",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "Georgia's e-procurement system was introduced in 2010 and has been credited with reducing procurement costs and corruption. The system supports multiple procurement methods including electronic tenders, simplified electronic tenders, and consolidated tenders. Georgia publishes procurement data openly and has been recognized for transparency reforms.",
+  "dpgs_deployed": []
+}

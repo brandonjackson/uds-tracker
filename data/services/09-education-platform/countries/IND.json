@@ -1,0 +1,33 @@
+{
+  "country_code": "IND",
+  "country_name": "India",
+  "service_id": "09-education-platform",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "India operates DIKSHA (Digital Infrastructure for Knowledge Sharing), built on the Sunbird open-source platform, serving as the national digital education infrastructure. The platform has reached over 300 million users across all states and union territories, providing QR-coded textbooks, digital courses, teacher training modules, and assessment tools in multiple Indian languages. The National Education Policy 2020 has further accelerated digital learning initiatives through platforms like SWAYAM for higher education and the National Digital Education Architecture (NDEAR).",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "DIKSHA - National Digital Education Platform",
+      "url": "https://diksha.gov.in/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Sunbird - Digital Public Good",
+      "url": "https://www.sunbird.org/",
+      "type": "dpg_registry",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "SWAYAM Online Learning Platform",
+      "url": "https://swayam.gov.in/",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "DIKSHA/Sunbird is recognized as a Digital Public Good and has been adopted or explored by several other countries. The platform supports content in 36 Indian languages. Academic Bank of Credits (ABC) provides digital credential management for higher education. The PM eVIDYA initiative consolidated multiple digital education channels during COVID-19 and continues to operate.",
+  "dpgs_deployed": [
+    "sunbird"
+  ]
+}

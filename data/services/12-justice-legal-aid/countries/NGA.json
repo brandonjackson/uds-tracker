@@ -1,0 +1,25 @@
+{
+  "country_code": "NGA",
+  "country_name": "Nigeria",
+  "service_id": "12-justice-legal-aid",
+  "status": "unavailable",
+  "confidence": "medium",
+  "summary": "Nigeria has minimal digital justice and legal aid services. The Legal Aid Council of Nigeria provides limited online information but does not offer digital application or case management. Court processes remain predominantly paper-based across federal and state courts, with very limited electronic filing capabilities.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Legal Aid Council of Nigeria",
+      "url": "https://www.legalaidcouncil.gov.ng/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "National Judicial Council",
+      "url": "https://www.njc.gov.ng/",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "Some pilot digitization efforts have been undertaken, including case management systems in select courts in Lagos and Abuja. However, these remain limited in scope. The Administration of Criminal Justice Act (ACJA) monitoring committee has recommended broader court digitization, but implementation is slow.",
+  "dpgs_deployed": []
+}

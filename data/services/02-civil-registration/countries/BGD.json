@@ -1,0 +1,25 @@
+{
+  "country_code": "BGD",
+  "country_name": "Bangladesh",
+  "service_id": "02-civil-registration",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "Bangladesh has deployed OpenCRVS, an open-source civil registration and vital statistics platform, to digitize birth and death registration nationwide. The system enables registration at union digital centres across the country, with records linked to the national identity system. Bangladesh was the first country to deploy OpenCRVS at national scale, and the system has significantly improved registration completeness and timeliness.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "Office of the Registrar General, Birth and Death Registration",
+      "url": "https://bdris.gov.bd/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "OpenCRVS - Bangladesh Deployment",
+      "url": "https://www.opencrvs.org/",
+      "type": "dpg_registry",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "OpenCRVS was developed in partnership with Plan International and the Government of Bangladesh. It is recognized as a Digital Public Good by the DPGA. Birth registration completeness has improved substantially since the system's deployment.",
+  "dpgs_deployed": ["OpenCRVS"]
+}

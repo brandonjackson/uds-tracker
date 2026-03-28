@@ -1,0 +1,31 @@
+{
+  "country_code": "GBR",
+  "country_name": "United Kingdom",
+  "service_id": "09-education-platform",
+  "status": "available",
+  "confidence": "medium",
+  "summary": "The UK provides extensive digital education services across multiple platforms. The National Careers Service offers online career guidance, skills assessments, and course search tools. UCAS provides fully digital university admissions processing for over 700,000 applicants annually. Schools across England use the Department for Education's digital services for performance data, school comparisons, and teacher services. The Oak National Academy provides free online curriculum resources, and the National Tutoring Programme operates digitally.",
+  "year_assessed": 2026,
+  "sources": [
+    {
+      "title": "National Careers Service",
+      "url": "https://nationalcareers.service.gov.uk/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "UCAS - University Admissions",
+      "url": "https://www.ucas.com/",
+      "type": "primary",
+      "accessed": "2026-03-28"
+    },
+    {
+      "title": "Department for Education Digital Services",
+      "url": "https://www.gov.uk/government/organisations/department-for-education",
+      "type": "secondary",
+      "accessed": "2026-03-28"
+    }
+  ],
+  "notes": "The UK education system is highly digitized with schools using various management information systems (MIS) for attendance, assessment, and reporting. The Get Information About Schools (GIAS) service provides a comprehensive digital register. Student finance applications for England are fully digital through Student Finance England. Scotland, Wales, and Northern Ireland have their own education digital platforms.",
+  "dpgs_deployed": []
+}

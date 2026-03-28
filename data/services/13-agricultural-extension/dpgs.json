@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Digital Green",
+    "url": "https://www.digitalgreen.org",
+    "description": "Technology-driven organization and platform that uses participatory video and data-driven approaches to share agricultural knowledge with smallholder farmers. Provides tools for extension worker management, farmer engagement, and impact tracking.",
+    "maturity": "Emerging",
+    "countries_deployed": ["IN", "ET", "NG", "AF"]
+  },
+  {
+    "name": "DHIS2",
+    "url": "https://dhis2.org",
+    "description": "While primarily a health information platform, DHIS2 has been adapted for agricultural data management, farmer registry, and extension service tracking in several countries. Its flexible data model supports custom agricultural use cases.",
+    "maturity": "Mature",
+    "countries_deployed": ["TZ", "UG", "BD"]
+  }
+]
