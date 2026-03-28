@@ -11,7 +11,7 @@ export default function Header() {
                 UDS
               </div>
               <span className="font-bold text-lg hidden sm:block">
-                UDS Tracker
+                Universal Digital Services
               </span>
             </Link>
             <nav className="flex items-center gap-4 text-sm font-bold">
