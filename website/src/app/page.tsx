@@ -175,23 +175,25 @@ const timeline: LifeStage[] = [
   },
 ];
 
-const tierConfig = {
-  Foundation: {
-    bg: "bg-[var(--green-light)]",
-    text: "text-[var(--green)]",
-    dot: "bg-[var(--green)]",
-  },
-  Essential: {
-    bg: "bg-[#fde8d6]",
-    text: "text-[#6f3500]",
-    dot: "bg-[#f47738]",
-  },
-  Frontier: {
-    bg: "bg-[#ebe0f7]",
-    text: "text-[#4c2c92]",
-    dot: "bg-[#4c2c92]",
-  },
+// Top Digital Public Good for each service (by service number)
+const topDpg: Record<number, string> = {
+  1: "MOSIP",
+  2: "OpenCRVS",
+  3: "Mojaloop",
+  4: "DHIS2",
+  6: "OpenSPP",
+  8: "SOLA",
+  9: "Sunbird",
+  10: "eRegistrations",
+  13: "Digital Green",
 };
+
+function getDpgLabel(serviceNumber: number): { label: string; isGap: boolean } {
+  const dpg = topDpg[serviceNumber];
+  if (dpg) return { label: dpg, isGap: false };
+  if (serviceNumber >= 16) return { label: "At the frontier", isGap: true };
+  return { label: "Gap — build this", isGap: true };
+}
 
 export default function Home() {
   return (
@@ -233,24 +235,13 @@ export default function Home() {
       <section className="py-10">
         <div className="max-w-[960px] mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-[var(--black)] mb-2">
-            20 digital services, from cradle to grave
+            easily accessible services from cradle to grave
           </h2>
           <p className="text-[var(--dark-grey)] mb-6 max-w-2xl leading-relaxed">
             Every person should be able to access the government services they
             need at every stage of life &mdash; digitally, simply, and without
             corruption or delay.
           </p>
-
-          <div className="flex items-center gap-4 flex-wrap mb-8">
-            {(["Foundation", "Essential", "Frontier"] as const).map((tier) => (
-              <span
-                key={tier}
-                className={`text-xs font-bold uppercase tracking-wider px-2 py-1 ${tierConfig[tier].bg} ${tierConfig[tier].text}`}
-              >
-                {tier}
-              </span>
-            ))}
-          </div>
 
           <div className="relative">
             {/* Vertical line */}
@@ -271,7 +262,7 @@ export default function Home() {
                 {/* Services in this stage */}
                 <div className="space-y-3">
                   {stage.services.map((service, serviceIdx) => {
-                    const config = tierConfig[service.tier];
+                    const { label: dpgLabel, isGap } = getDpgLabel(service.number);
                     return (
                       <div
                         key={serviceIdx}
@@ -279,7 +270,7 @@ export default function Home() {
                       >
                         <div className="w-[32px] sm:w-[40px] flex-shrink-0 flex items-center justify-center pt-3 relative z-10">
                           <div
-                            className={`w-2.5 h-2.5 rounded-full ${config.dot} ring-4 ring-white`}
+                            className="w-2.5 h-2.5 rounded-full bg-[var(--green)] ring-4 ring-white"
                           />
                         </div>
                         <div className="border border-[var(--border-grey)] p-4 flex-1 bg-white">
@@ -288,9 +279,13 @@ export default function Home() {
                               {service.title}
                             </p>
                             <span
-                              className={`text-[11px] font-bold uppercase tracking-wider px-1.5 py-0.5 flex-shrink-0 ${config.bg} ${config.text}`}
+                              className={`text-[11px] font-bold uppercase tracking-wider px-1.5 py-0.5 flex-shrink-0 ${
+                                isGap
+                                  ? "bg-[var(--light-grey)] text-[var(--dark-grey)] italic"
+                                  : "bg-[var(--green-light)] text-[var(--green)]"
+                              }`}
                             >
-                              {service.tier}
+                              {dpgLabel}
                             </span>
                           </div>
                           <p className="text-sm text-[var(--dark-grey)] mt-1">
