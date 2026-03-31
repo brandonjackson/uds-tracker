@@ -192,7 +192,7 @@ function getDpgLabel(serviceNumber: number): { label: string; isGap: boolean } {
   const dpg = topDpg[serviceNumber];
   if (dpg) return { label: dpg, isGap: false };
   if (serviceNumber >= 16) return { label: "At the frontier", isGap: true };
-  return { label: "Gap — build this", isGap: true };
+  return { label: "Gap", isGap: true };
 }
 
 export default function Home() {
