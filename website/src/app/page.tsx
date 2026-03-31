@@ -210,8 +210,7 @@ export default function Home() {
             Everyone deserves brilliant digital services from their government. By 2035.
           </h1>
           <p className="text-lg leading-relaxed max-w-2xl mb-8 opacity-90">
-            AI has supercharged the speed of software. That means the next decade is a once-in-a-generation opportunity to level up public services worldwide — from registering a birth to receiving a pension. The
-            UDS Tracker maps the gaps and champions who's closing them.
+            AI is supercharging the speed of software — making this a once-in-a-generation chance to level up public services worldwide. The UDS Tracker maps the gaps and champions who's closing them.
           </p>
           <div className="flex items-center gap-4">
             <Link
