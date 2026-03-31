@@ -233,7 +233,7 @@ export default function Home() {
       <section className="py-10">
         <div className="max-w-[960px] mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-[var(--black)] mb-2">
-            20 digital services, from cradle to grave
+            easily accessible services from cradle to grave
           </h2>
           <p className="text-[var(--dark-grey)] mb-6 max-w-2xl leading-relaxed">
             Every person should be able to access the government services they
