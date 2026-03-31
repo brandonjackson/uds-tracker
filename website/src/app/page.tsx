@@ -22,12 +22,6 @@ const timeline: LifeStage[] = [
         tier: "Foundation",
         number: 2,
       },
-      {
-        title: "Check your child\u2019s vaccination history",
-        category: "Health Records",
-        tier: "Foundation",
-        number: 4,
-      },
     ],
   },
   {
@@ -180,7 +174,6 @@ const topDpg: Record<number, string> = {
   1: "MOSIP",
   2: "OpenCRVS",
   3: "Mojaloop",
-  4: "DHIS2",
   6: "OpenSPP",
   8: "SOLA",
   9: "Sunbird",
