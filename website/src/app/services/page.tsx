@@ -29,12 +29,12 @@ export default function ServicesPage() {
             Services
           </p>
           <h1 className="text-3xl sm:text-4xl lg:text-[48px] font-bold leading-tight mb-4">
-            20 universal digital services
+            The full landscape of digital services
           </h1>
           <p className="text-lg leading-relaxed max-w-2xl opacity-90">
-            From digital identity to AI-powered public health, these are the
-            services every government should offer digitally. Organised into
-            three tiers by maturity and global coverage.
+            A 360° view of the services governments can deliver digitally—from
+            identity and civil registration to education, health, and
+            beyond. Organised into three tiers by maturity and global coverage.
           </p>
         </div>
       </section>
