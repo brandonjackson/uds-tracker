@@ -29,7 +29,7 @@ export default function ServicesPage() {
             Services
           </p>
           <h1 className="text-3xl sm:text-4xl lg:text-[48px] font-bold leading-tight mb-4">
-            The full landscape of digital services
+            The Digital Services Landscape
           </h1>
           <p className="text-lg leading-relaxed max-w-2xl opacity-90">
             A 360° view of the services governments can deliver digitally—from
